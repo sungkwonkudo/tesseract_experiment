@@ -1,0 +1,2075 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'tesseract-js' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose config Skipping project config: C:\Users\sunkudo/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData tesseract-js
+9 silly fetchNamedPackageData tesseract-js
+10 silly mapToRegistry name tesseract-js
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'tesseract-js',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'tesseract-js',
+13 silly mapToRegistry   name: 'tesseract-js',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/tesseract-js
+15 verbose request uri https://registry.npmjs.org/tesseract-js
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 10:46:56 AM
+18 verbose request id 177cd9904c0d8043
+19 verbose etag W/"580d1fd8-d7b"
+20 verbose lastModified Sun, 23 Oct 2016 20:38:48 GMT
+21 http request GET https://registry.npmjs.org/tesseract-js
+22 http 304 https://registry.npmjs.org/tesseract-js
+23 verbose headers { date: 'Tue, 22 Aug 2017 14:46:56 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   etag: 'W/"580d1fd8-d7b"',
+23 verbose headers   age: '0',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-mdw17349-MDW',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1503413216.460611,VS0,VE270',
+23 verbose headers   vary: 'Accept-Encoding, Accept' }
+24 silly get cb [ 304,
+24 silly get   { date: 'Tue, 22 Aug 2017 14:46:56 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     etag: 'W/"580d1fd8-d7b"',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-mdw17349-MDW',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1503413216.460611,VS0,VE270',
+24 silly get     vary: 'Accept-Encoding, Accept' } ]
+25 verbose etag https://registry.npmjs.org/tesseract-js from cache
+26 verbose get saving tesseract-js to C:\Users\sunkudo\AppData\Roaming\npm-cache\registry.npmjs.org\tesseract-js\.cache.json
+27 verbose correctMkdir C:\Users\sunkudo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly resolveWithNewModule tesseract-js@0.0.1 checking installable status
+41 silly cache add args [ 'tesseract-js', null ]
+42 verbose cache add spec tesseract-js
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'tesseract-js',
+43 silly cache add   scope: null,
+43 silly cache add   escapedName: 'tesseract-js',
+43 silly cache add   name: 'tesseract-js',
+43 silly cache add   rawSpec: '',
+43 silly cache add   spec: 'latest',
+43 silly cache add   type: 'tag' }
+44 silly addNamed tesseract-js@latest
+45 verbose addNamed "latest" is being treated as a dist-tag for tesseract-js
+46 info addNameTag [ 'tesseract-js', 'latest' ]
+47 silly mapToRegistry name tesseract-js
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'tesseract-js',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   escapedName: 'tesseract-js',
+50 silly mapToRegistry   name: 'tesseract-js',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri https://registry.npmjs.org/tesseract-js
+52 verbose addNameTag registry:https://registry.npmjs.org/tesseract-js not in flight; fetching
+53 verbose get https://registry.npmjs.org/tesseract-js not expired, no request
+54 silly addNameTag next cb for tesseract-js with tag latest
+55 silly addNamed tesseract-js@0.0.1
+56 verbose addNamed "0.0.1" is a plain semver version for tesseract-js
+57 silly cache afterAdd tesseract-js@0.0.1
+58 verbose afterAdd C:\Users\sunkudo\AppData\Roaming\npm-cache\tesseract-js\0.0.1\package\package.json not in flight; writing
+59 verbose correctMkdir C:\Users\sunkudo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+60 verbose afterAdd C:\Users\sunkudo\AppData\Roaming\npm-cache\tesseract-js\0.0.1\package\package.json written
+61 silly fetchNamedPackageData chai
+62 silly mapToRegistry name chai
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'chai',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'chai',
+65 silly mapToRegistry   name: 'chai',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/chai
+67 verbose request uri https://registry.npmjs.org/chai
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 10:46:57 AM
+70 verbose etag W/"59984819-19874"
+71 verbose lastModified Sat, 19 Aug 2017 14:15:53 GMT
+72 http request GET https://registry.npmjs.org/chai
+73 http 304 https://registry.npmjs.org/chai
+74 verbose headers { date: 'Tue, 22 Aug 2017 14:46:57 GMT',
+74 verbose headers   via: '1.1 varnish',
+74 verbose headers   'cache-control': 'max-age=300',
+74 verbose headers   etag: 'W/"59984819-19874"',
+74 verbose headers   age: '4',
+74 verbose headers   connection: 'keep-alive',
+74 verbose headers   'x-served-by': 'cache-mdw17349-MDW',
+74 verbose headers   'x-cache': 'HIT',
+74 verbose headers   'x-cache-hits': '1',
+74 verbose headers   'x-timer': 'S1503413217.280561,VS0,VE0',
+74 verbose headers   vary: 'Accept-Encoding, Accept' }
+75 silly get cb [ 304,
+75 silly get   { date: 'Tue, 22 Aug 2017 14:46:57 GMT',
+75 silly get     via: '1.1 varnish',
+75 silly get     'cache-control': 'max-age=300',
+75 silly get     etag: 'W/"59984819-19874"',
+75 silly get     age: '4',
+75 silly get     connection: 'keep-alive',
+75 silly get     'x-served-by': 'cache-mdw17349-MDW',
+75 silly get     'x-cache': 'HIT',
+75 silly get     'x-cache-hits': '1',
+75 silly get     'x-timer': 'S1503413217.280561,VS0,VE0',
+75 silly get     vary: 'Accept-Encoding, Accept' } ]
+76 verbose etag https://registry.npmjs.org/chai from cache
+77 verbose get saving chai to C:\Users\sunkudo\AppData\Roaming\npm-cache\registry.npmjs.org\chai\.cache.json
+78 verbose correctMkdir C:\Users\sunkudo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+79 silly resolveWithNewModule chai@1.3.0 checking installable status
+80 silly cache add args [ 'chai@1.3.0', null ]
+81 verbose cache add spec chai@1.3.0
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'chai@1.3.0',
+82 silly cache add   scope: null,
+82 silly cache add   escapedName: 'chai',
+82 silly cache add   name: 'chai',
+82 silly cache add   rawSpec: '1.3.0',
+82 silly cache add   spec: '1.3.0',
+82 silly cache add   type: 'version' }
+83 silly addNamed chai@1.3.0
+84 verbose addNamed "1.3.0" is a plain semver version for chai
+85 silly mapToRegistry name chai
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'chai',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'chai',
+88 silly mapToRegistry   name: 'chai',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/chai
+90 verbose addNameVersion registry:https://registry.npmjs.org/chai not in flight; fetching
+91 verbose get https://registry.npmjs.org/chai not expired, no request
+92 silly cache afterAdd chai@1.3.0
+93 verbose afterAdd C:\Users\sunkudo\AppData\Roaming\npm-cache\chai\1.3.0\package\package.json not in flight; writing
+94 verbose correctMkdir C:\Users\sunkudo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+95 verbose afterAdd C:\Users\sunkudo\AppData\Roaming\npm-cache\chai\1.3.0\package\package.json written
+96 silly loadAllDepsIntoIdealTree Finishing
+97 silly loadIdealTree Finishing
+98 silly currentTree sunkudo
+98 silly currentTree +-- abstract-leveldown@0.12.4
+98 silly currentTree | `-- xtend@3.0.0
+98 silly currentTree +-- ajv@4.11.8
+98 silly currentTree +-- asn1@0.2.3
+98 silly currentTree +-- assert-plus@0.2.0
+98 silly currentTree +-- asynckit@0.4.0
+98 silly currentTree +-- aws-sign2@0.6.0
+98 silly currentTree +-- aws4@1.6.0
+98 silly currentTree +-- bcrypt-pbkdf@1.0.1
+98 silly currentTree +-- boom@2.10.1
+98 silly currentTree +-- caseless@0.12.0
+98 silly currentTree +-- co@4.6.0
+98 silly currentTree +-- combined-stream@1.0.5
+98 silly currentTree +-- core-util-is@1.0.2
+98 silly currentTree +-- cryptiles@2.0.5
+98 silly currentTree +-- dashdash@1.14.1
+98 silly currentTree | `-- assert-plus@1.0.0
+98 silly currentTree +-- delayed-stream@1.0.0
+98 silly currentTree +-- ecc-jsbn@0.1.1
+98 silly currentTree +-- encoding@0.1.12
+98 silly currentTree +-- extend@3.0.1
+98 silly currentTree +-- extsprintf@1.3.0
+98 silly currentTree +-- file-type@3.9.0
+98 silly currentTree +-- forever-agent@0.6.1
+98 silly currentTree +-- form-data@2.1.4
+98 silly currentTree +-- getpass@0.1.7
+98 silly currentTree | `-- assert-plus@1.0.0
+98 silly currentTree +-- har-schema@1.0.5
+98 silly currentTree +-- har-validator@4.2.1
+98 silly currentTree +-- hawk@3.1.3
+98 silly currentTree +-- hoek@2.16.3
+98 silly currentTree +-- http-signature@1.1.1
+98 silly currentTree +-- iconv-lite@0.4.18
+98 silly currentTree +-- idb-wrapper@1.7.1
+98 silly currentTree +-- is-stream@1.1.0
+98 silly currentTree +-- is-typedarray@1.0.0
+98 silly currentTree +-- is-url@1.2.2
+98 silly currentTree +-- isbuffer@0.0.0
+98 silly currentTree +-- isstream@0.1.2
+98 silly currentTree +-- jpeg-js@0.2.0
+98 silly currentTree +-- jsbn@0.1.1
+98 silly currentTree +-- json-schema@0.2.3
+98 silly currentTree +-- json-stable-stringify@1.0.1
+98 silly currentTree +-- json-stringify-safe@5.0.1
+98 silly currentTree +-- jsonify@0.0.0
+98 silly currentTree +-- jsprim@1.4.1
+98 silly currentTree | `-- assert-plus@1.0.0
+98 silly currentTree +-- level-js@2.2.4
+98 silly currentTree +-- ltgt@2.2.0
+98 silly currentTree +-- mime-db@1.29.0
+98 silly currentTree +-- mime-types@2.1.16
+98 silly currentTree +-- node-fetch@1.7.2
+98 silly currentTree +-- oauth-sign@0.8.2
+98 silly currentTree +-- object-assign@4.1.1
+98 silly currentTree +-- object-keys@0.4.0
+98 silly currentTree +-- performance-now@0.2.0
+98 silly currentTree +-- png.js@0.2.1
+98 silly currentTree +-- punycode@1.4.1
+98 silly currentTree +-- qs@6.4.0
+98 silly currentTree +-- request@2.81.0
+98 silly currentTree +-- safe-buffer@5.1.1
+98 silly currentTree +-- sntp@1.0.9
+98 silly currentTree +-- sshpk@1.13.1
+98 silly currentTree | `-- assert-plus@1.0.0
+98 silly currentTree +-- stringstream@0.0.5
+98 silly currentTree +-- tesseract.js-core@1.0.2
+98 silly currentTree +-- tesseract.js@1.0.10
+98 silly currentTree +-- tough-cookie@2.3.2
+98 silly currentTree +-- tunnel-agent@0.6.0
+98 silly currentTree +-- tweetnacl@0.14.5
+98 silly currentTree +-- typedarray-to-buffer@1.0.4
+98 silly currentTree +-- uuid@3.1.0
+98 silly currentTree +-- verror@1.10.0
+98 silly currentTree | `-- assert-plus@1.0.0
+98 silly currentTree `-- xtend@2.1.2
+99 silly idealTree sunkudo
+99 silly idealTree +-- abstract-leveldown@0.12.4
+99 silly idealTree | `-- xtend@3.0.0
+99 silly idealTree +-- ajv@4.11.8
+99 silly idealTree +-- asn1@0.2.3
+99 silly idealTree +-- assert-plus@0.2.0
+99 silly idealTree +-- asynckit@0.4.0
+99 silly idealTree +-- aws-sign2@0.6.0
+99 silly idealTree +-- aws4@1.6.0
+99 silly idealTree +-- bcrypt-pbkdf@1.0.1
+99 silly idealTree +-- boom@2.10.1
+99 silly idealTree +-- caseless@0.12.0
+99 silly idealTree +-- chai@1.3.0
+99 silly idealTree +-- co@4.6.0
+99 silly idealTree +-- combined-stream@1.0.5
+99 silly idealTree +-- core-util-is@1.0.2
+99 silly idealTree +-- cryptiles@2.0.5
+99 silly idealTree +-- dashdash@1.14.1
+99 silly idealTree | `-- assert-plus@1.0.0
+99 silly idealTree +-- delayed-stream@1.0.0
+99 silly idealTree +-- ecc-jsbn@0.1.1
+99 silly idealTree +-- encoding@0.1.12
+99 silly idealTree +-- extend@3.0.1
+99 silly idealTree +-- extsprintf@1.3.0
+99 silly idealTree +-- file-type@3.9.0
+99 silly idealTree +-- forever-agent@0.6.1
+99 silly idealTree +-- form-data@2.1.4
+99 silly idealTree +-- getpass@0.1.7
+99 silly idealTree | `-- assert-plus@1.0.0
+99 silly idealTree +-- har-schema@1.0.5
+99 silly idealTree +-- har-validator@4.2.1
+99 silly idealTree +-- hawk@3.1.3
+99 silly idealTree +-- hoek@2.16.3
+99 silly idealTree +-- http-signature@1.1.1
+99 silly idealTree +-- iconv-lite@0.4.18
+99 silly idealTree +-- idb-wrapper@1.7.1
+99 silly idealTree +-- is-stream@1.1.0
+99 silly idealTree +-- is-typedarray@1.0.0
+99 silly idealTree +-- is-url@1.2.2
+99 silly idealTree +-- isbuffer@0.0.0
+99 silly idealTree +-- isstream@0.1.2
+99 silly idealTree +-- jpeg-js@0.2.0
+99 silly idealTree +-- jsbn@0.1.1
+99 silly idealTree +-- json-schema@0.2.3
+99 silly idealTree +-- json-stable-stringify@1.0.1
+99 silly idealTree +-- json-stringify-safe@5.0.1
+99 silly idealTree +-- jsonify@0.0.0
+99 silly idealTree +-- jsprim@1.4.1
+99 silly idealTree | `-- assert-plus@1.0.0
+99 silly idealTree +-- level-js@2.2.4
+99 silly idealTree +-- ltgt@2.2.0
+99 silly idealTree +-- mime-db@1.29.0
+99 silly idealTree +-- mime-types@2.1.16
+99 silly idealTree +-- node-fetch@1.7.2
+99 silly idealTree +-- oauth-sign@0.8.2
+99 silly idealTree +-- object-assign@4.1.1
+99 silly idealTree +-- object-keys@0.4.0
+99 silly idealTree +-- performance-now@0.2.0
+99 silly idealTree +-- png.js@0.2.1
+99 silly idealTree +-- punycode@1.4.1
+99 silly idealTree +-- qs@6.4.0
+99 silly idealTree +-- request@2.81.0
+99 silly idealTree +-- safe-buffer@5.1.1
+99 silly idealTree +-- sntp@1.0.9
+99 silly idealTree +-- sshpk@1.13.1
+99 silly idealTree | `-- assert-plus@1.0.0
+99 silly idealTree +-- stringstream@0.0.5
+99 silly idealTree +-- tesseract-js@0.0.1
+99 silly idealTree +-- tesseract.js-core@1.0.2
+99 silly idealTree +-- tesseract.js@1.0.10
+99 silly idealTree +-- tough-cookie@2.3.2
+99 silly idealTree +-- tunnel-agent@0.6.0
+99 silly idealTree +-- tweetnacl@0.14.5
+99 silly idealTree +-- typedarray-to-buffer@1.0.4
+99 silly idealTree +-- uuid@3.1.0
+99 silly idealTree +-- verror@1.10.0
+99 silly idealTree | `-- assert-plus@1.0.0
+99 silly idealTree `-- xtend@2.1.2
+100 silly generateActionsToTake Starting
+101 silly install generateActionsToTake
+102 silly generateActionsToTake Finishing
+103 silly diffTrees action count 2
+104 silly diffTrees add chai@1.3.0
+105 silly diffTrees add tesseract-js@0.0.1
+106 silly decomposeActions action count 16
+107 silly decomposeActions fetch chai@1.3.0
+108 silly decomposeActions extract chai@1.3.0
+109 silly decomposeActions test chai@1.3.0
+110 silly decomposeActions preinstall chai@1.3.0
+111 silly decomposeActions build chai@1.3.0
+112 silly decomposeActions install chai@1.3.0
+113 silly decomposeActions postinstall chai@1.3.0
+114 silly decomposeActions finalize chai@1.3.0
+115 silly decomposeActions fetch tesseract-js@0.0.1
+116 silly decomposeActions extract tesseract-js@0.0.1
+117 silly decomposeActions test tesseract-js@0.0.1
+118 silly decomposeActions preinstall tesseract-js@0.0.1
+119 silly decomposeActions build tesseract-js@0.0.1
+120 silly decomposeActions install tesseract-js@0.0.1
+121 silly decomposeActions postinstall tesseract-js@0.0.1
+122 silly decomposeActions finalize tesseract-js@0.0.1
+123 silly runTopLevelLifecycles Starting
+124 silly executeActions Starting
+125 silly install executeActions
+126 silly doSerial global-install 0
+127 silly doParallel fetch 2
+128 verbose correctMkdir C:\Users\sunkudo\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+129 verbose lock using C:\Users\sunkudo\AppData\Roaming\npm-cache\_locks\staging-e1b423a5f6db818c.lock for C:\Users\sunkudo\node_modules\.staging
+130 silly doParallel extract 2
+131 silly extract chai@1.3.0
+132 silly extract tesseract-js@0.0.1
+133 verbose unbuild node_modules\.staging\chai-19f36152
+134 verbose unbuild node_modules\.staging\tesseract-js-62f49685
+135 silly gentlyRm C:\Users\sunkudo\node_modules\.staging\chai-19f36152 is being purged from base C:\Users\sunkudo
+136 verbose gentlyRm don't care about contents; nuking C:\Users\sunkudo\node_modules\.staging\chai-19f36152
+137 silly gentlyRm C:\Users\sunkudo\node_modules\.staging\tesseract-js-62f49685 is being purged from base C:\Users\sunkudo
+138 verbose gentlyRm don't care about contents; nuking C:\Users\sunkudo\node_modules\.staging\tesseract-js-62f49685
+139 verbose tar unpack C:\Users\sunkudo\AppData\Roaming\npm-cache\chai\1.3.0\package.tgz
+140 verbose tar unpacking to C:\Users\sunkudo\node_modules\.staging\chai-19f36152
+141 silly gentlyRm C:\Users\sunkudo\node_modules\.staging\chai-19f36152 is being purged
+142 verbose gentlyRm don't care about contents; nuking C:\Users\sunkudo\node_modules\.staging\chai-19f36152
+143 verbose tar unpack C:\Users\sunkudo\AppData\Roaming\npm-cache\tesseract-js\0.0.1\package.tgz
+144 verbose tar unpacking to C:\Users\sunkudo\node_modules\.staging\tesseract-js-62f49685
+145 silly gentlyRm C:\Users\sunkudo\node_modules\.staging\tesseract-js-62f49685 is being purged
+146 verbose gentlyRm don't care about contents; nuking C:\Users\sunkudo\node_modules\.staging\tesseract-js-62f49685
+147 silly gunzTarPerm modes [ '777', '666' ]
+148 silly gunzTarPerm modes [ '777', '666' ]
+149 silly gunzTarPerm extractEntry package.json
+150 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+151 silly gunzTarPerm extractEntry package.json
+152 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+153 silly gunzTarPerm extractEntry .npmignore
+154 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+155 silly gunzTarPerm extractEntry README.md
+156 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+157 silly gunzTarPerm extractEntry .npmignore
+158 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+159 silly gunzTarPerm extractEntry README.md
+160 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+161 silly gunzTarPerm extractEntry chai.js
+162 silly gunzTarPerm modified mode [ 'chai.js', 420, 438 ]
+163 silly gunzTarPerm extractEntry index.js
+164 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+165 silly gunzTarPerm extractEntry History.md
+166 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+167 silly gunzTarPerm extractEntry lib/chai.js
+168 silly gunzTarPerm modified mode [ 'lib/chai.js', 420, 438 ]
+169 silly gunzTarPerm extractEntry lib/chai/assertion.js
+170 silly gunzTarPerm modified mode [ 'lib/chai/assertion.js', 420, 438 ]
+171 silly gunzTarPerm extractEntry lib/chai/error.js
+172 silly gunzTarPerm modified mode [ 'lib/chai/error.js', 420, 438 ]
+173 silly gunzTarPerm extractEntry lib/chai/browser/error.js
+174 silly gunzTarPerm modified mode [ 'lib/chai/browser/error.js', 420, 438 ]
+175 silly gunzTarPerm extractEntry lib/chai/core/assertions.js
+176 silly gunzTarPerm modified mode [ 'lib/chai/core/assertions.js', 420, 438 ]
+177 silly gunzTarPerm extractEntry lib/chai/interface/assert.js
+178 silly gunzTarPerm modified mode [ 'lib/chai/interface/assert.js', 420, 438 ]
+179 silly gunzTarPerm extractEntry lib/chai/interface/expect.js
+180 silly gunzTarPerm modified mode [ 'lib/chai/interface/expect.js', 420, 438 ]
+181 silly gunzTarPerm extractEntry lib/chai/interface/should.js
+182 silly gunzTarPerm modified mode [ 'lib/chai/interface/should.js', 420, 438 ]
+183 silly gunzTarPerm extractEntry lib/chai/utils/addChainableMethod.js
+184 silly gunzTarPerm modified mode [ 'lib/chai/utils/addChainableMethod.js', 420, 438 ]
+185 silly gunzTarPerm extractEntry lib/chai/utils/flag.js
+186 silly gunzTarPerm modified mode [ 'lib/chai/utils/flag.js', 420, 438 ]
+187 silly gunzTarPerm extractEntry lib/chai/utils/getActual.js
+188 silly gunzTarPerm modified mode [ 'lib/chai/utils/getActual.js', 420, 438 ]
+189 silly gunzTarPerm extractEntry lib/chai/utils/getMessage.js
+190 silly gunzTarPerm modified mode [ 'lib/chai/utils/getMessage.js', 420, 438 ]
+191 silly gunzTarPerm extractEntry lib/chai/utils/getName.js
+192 silly gunzTarPerm modified mode [ 'lib/chai/utils/getName.js', 420, 438 ]
+193 silly gunzTarPerm extractEntry lib/chai/utils/eql.js
+194 silly gunzTarPerm modified mode [ 'lib/chai/utils/eql.js', 420, 438 ]
+195 silly gunzTarPerm extractEntry lib/chai/utils/index.js
+196 silly gunzTarPerm modified mode [ 'lib/chai/utils/index.js', 420, 438 ]
+197 silly gunzTarPerm extractEntry lib/chai/utils/inspect.js
+198 silly gunzTarPerm modified mode [ 'lib/chai/utils/inspect.js', 420, 438 ]
+199 silly gunzTarPerm extractEntry lib/chai/utils/objDisplay.js
+200 silly gunzTarPerm modified mode [ 'lib/chai/utils/objDisplay.js', 420, 438 ]
+201 silly gunzTarPerm extractEntry lib/chai/utils/overwriteMethod.js
+202 silly gunzTarPerm modified mode [ 'lib/chai/utils/overwriteMethod.js', 420, 438 ]
+203 silly gunzTarPerm extractEntry lib/chai/utils/overwriteProperty.js
+204 silly gunzTarPerm modified mode [ 'lib/chai/utils/overwriteProperty.js', 420, 438 ]
+205 silly gunzTarPerm extractEntry lib/chai/utils/addProperty.js
+206 silly gunzTarPerm modified mode [ 'lib/chai/utils/addProperty.js', 420, 438 ]
+207 silly gunzTarPerm extractEntry lib/chai/utils/test.js
+208 silly gunzTarPerm modified mode [ 'lib/chai/utils/test.js', 420, 438 ]
+209 silly gunzTarPerm extractEntry lib/chai/utils/addMethod.js
+210 silly gunzTarPerm modified mode [ 'lib/chai/utils/addMethod.js', 420, 438 ]
+211 silly gunzTarPerm extractEntry lib/chai/utils/transferFlags.js
+212 silly gunzTarPerm modified mode [ 'lib/chai/utils/transferFlags.js', 420, 438 ]
+213 silly gunzTarPerm extractEntry lib/chai/utils/getPathValue.js
+214 silly gunzTarPerm modified mode [ 'lib/chai/utils/getPathValue.js', 420, 438 ]
+215 silly gunzTarPerm extractEntry LICENSE
+216 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+217 silly gunzTarPerm extractEntry binding.gyp
+218 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+219 silly gunzTarPerm extractEntry deps/leptonica/leptonica-license.txt
+220 silly gunzTarPerm modified mode [ 'deps/leptonica/leptonica-license.txt', 420, 438 ]
+221 silly gunzTarPerm extractEntry deps/leptonica/leptonica.gyp
+222 silly gunzTarPerm modified mode [ 'deps/leptonica/leptonica.gyp', 420, 438 ]
+223 silly gunzTarPerm extractEntry deps/leptonica/src/list.c
+224 silly gunzTarPerm modified mode [ 'deps/leptonica/src/list.c', 420, 438 ]
+225 silly gunzTarPerm extractEntry deps/leptonica/src/adaptmap.c
+226 silly gunzTarPerm modified mode [ 'deps/leptonica/src/adaptmap.c', 420, 438 ]
+227 silly gunzTarPerm extractEntry deps/leptonica/src/affinecompose.c
+228 silly gunzTarPerm modified mode [ 'deps/leptonica/src/affinecompose.c', 420, 438 ]
+229 silly gunzTarPerm extractEntry deps/leptonica/src/allheaders.h
+230 silly gunzTarPerm modified mode [ 'deps/leptonica/src/allheaders.h', 420, 438 ]
+231 silly gunzTarPerm extractEntry deps/leptonica/src/alltypes.h
+232 silly gunzTarPerm modified mode [ 'deps/leptonica/src/alltypes.h', 420, 438 ]
+233 silly gunzTarPerm extractEntry deps/leptonica/src/arithlow.c
+234 silly gunzTarPerm modified mode [ 'deps/leptonica/src/arithlow.c', 420, 438 ]
+235 silly gunzTarPerm extractEntry deps/leptonica/src/array.h
+236 silly gunzTarPerm modified mode [ 'deps/leptonica/src/array.h', 420, 438 ]
+237 silly gunzTarPerm extractEntry deps/leptonica/src/arrayaccess.c
+238 silly gunzTarPerm modified mode [ 'deps/leptonica/src/arrayaccess.c', 420, 438 ]
+239 silly gunzTarPerm extractEntry deps/leptonica/src/arrayaccess.h
+240 silly gunzTarPerm modified mode [ 'deps/leptonica/src/arrayaccess.h', 420, 438 ]
+241 silly gunzTarPerm extractEntry deps/leptonica/src/bardecode.c
+242 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bardecode.c', 420, 438 ]
+243 silly gunzTarPerm extractEntry deps/leptonica/src/baseline.c
+244 silly gunzTarPerm modified mode [ 'deps/leptonica/src/baseline.c', 420, 438 ]
+245 silly gunzTarPerm extractEntry deps/leptonica/src/bbuffer.c
+246 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bbuffer.c', 420, 438 ]
+247 silly gunzTarPerm extractEntry deps/leptonica/src/bbuffer.h
+248 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bbuffer.h', 420, 438 ]
+249 silly gunzTarPerm extractEntry deps/leptonica/src/bilinear.c
+250 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bilinear.c', 420, 438 ]
+251 silly gunzTarPerm extractEntry deps/leptonica/src/binarize.c
+252 silly gunzTarPerm modified mode [ 'deps/leptonica/src/binarize.c', 420, 438 ]
+253 silly gunzTarPerm extractEntry deps/leptonica/src/binexpand.c
+254 silly gunzTarPerm modified mode [ 'deps/leptonica/src/binexpand.c', 420, 438 ]
+255 silly gunzTarPerm extractEntry deps/leptonica/src/binexpandlow.c
+256 silly gunzTarPerm modified mode [ 'deps/leptonica/src/binexpandlow.c', 420, 438 ]
+257 silly gunzTarPerm extractEntry deps/leptonica/src/binreduce.c
+258 silly gunzTarPerm modified mode [ 'deps/leptonica/src/binreduce.c', 420, 438 ]
+259 silly gunzTarPerm extractEntry deps/leptonica/src/binreducelow.c
+260 silly gunzTarPerm modified mode [ 'deps/leptonica/src/binreducelow.c', 420, 438 ]
+261 silly gunzTarPerm extractEntry deps/leptonica/src/blend.c
+262 silly gunzTarPerm modified mode [ 'deps/leptonica/src/blend.c', 420, 438 ]
+263 silly gunzTarPerm extractEntry deps/leptonica/src/bmf.c
+264 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bmf.c', 420, 438 ]
+265 silly gunzTarPerm extractEntry deps/leptonica/src/bmf.h
+266 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bmf.h', 420, 438 ]
+267 silly gunzTarPerm extractEntry deps/leptonica/src/bmp.h
+268 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bmp.h', 420, 438 ]
+269 silly gunzTarPerm extractEntry deps/leptonica/src/bmpio.c
+270 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bmpio.c', 420, 438 ]
+271 silly gunzTarPerm extractEntry deps/leptonica/src/bmpiostub.c
+272 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bmpiostub.c', 420, 438 ]
+273 silly gunzTarPerm extractEntry deps/leptonica/src/boxbasic.c
+274 silly gunzTarPerm modified mode [ 'deps/leptonica/src/boxbasic.c', 420, 438 ]
+275 silly gunzTarPerm extractEntry deps/leptonica/src/boxfunc1.c
+276 silly gunzTarPerm modified mode [ 'deps/leptonica/src/boxfunc1.c', 420, 438 ]
+277 silly gunzTarPerm extractEntry deps/leptonica/src/boxfunc2.c
+278 silly gunzTarPerm modified mode [ 'deps/leptonica/src/boxfunc2.c', 420, 438 ]
+279 silly gunzTarPerm extractEntry deps/leptonica/src/boxfunc3.c
+280 silly gunzTarPerm modified mode [ 'deps/leptonica/src/boxfunc3.c', 420, 438 ]
+281 silly gunzTarPerm extractEntry deps/leptonica/src/boxfunc4.c
+282 silly gunzTarPerm modified mode [ 'deps/leptonica/src/boxfunc4.c', 420, 438 ]
+283 silly gunzTarPerm extractEntry deps/leptonica/src/bytearray.c
+284 silly gunzTarPerm modified mode [ 'deps/leptonica/src/bytearray.c', 420, 438 ]
+285 silly gunzTarPerm extractEntry deps/leptonica/src/ccbord.c
+286 silly gunzTarPerm modified mode [ 'deps/leptonica/src/ccbord.c', 420, 438 ]
+287 silly gunzTarPerm extractEntry deps/leptonica/src/ccbord.h
+288 silly gunzTarPerm modified mode [ 'deps/leptonica/src/ccbord.h', 420, 438 ]
+289 silly gunzTarPerm extractEntry deps/leptonica/src/ccthin.c
+290 silly gunzTarPerm modified mode [ 'deps/leptonica/src/ccthin.c', 420, 438 ]
+291 silly gunzTarPerm extractEntry deps/leptonica/src/classapp.c
+292 silly gunzTarPerm modified mode [ 'deps/leptonica/src/classapp.c', 420, 438 ]
+293 silly gunzTarPerm extractEntry deps/leptonica/src/colorcontent.c
+294 silly gunzTarPerm modified mode [ 'deps/leptonica/src/colorcontent.c', 420, 438 ]
+295 silly gunzTarPerm extractEntry deps/leptonica/src/coloring.c
+296 silly gunzTarPerm modified mode [ 'deps/leptonica/src/coloring.c', 420, 438 ]
+297 silly gunzTarPerm extractEntry deps/leptonica/src/colormap.c
+298 silly gunzTarPerm modified mode [ 'deps/leptonica/src/colormap.c', 420, 438 ]
+299 silly gunzTarPerm extractEntry deps/leptonica/src/colormorph.c
+300 silly gunzTarPerm modified mode [ 'deps/leptonica/src/colormorph.c', 420, 438 ]
+301 silly gunzTarPerm extractEntry deps/leptonica/src/colorquant1.c
+302 silly gunzTarPerm modified mode [ 'deps/leptonica/src/colorquant1.c', 420, 438 ]
+303 silly gunzTarPerm extractEntry deps/leptonica/src/colorquant2.c
+304 silly gunzTarPerm modified mode [ 'deps/leptonica/src/colorquant2.c', 420, 438 ]
+305 silly gunzTarPerm extractEntry deps/leptonica/src/colorseg.c
+306 silly gunzTarPerm modified mode [ 'deps/leptonica/src/colorseg.c', 420, 438 ]
+307 silly gunzTarPerm extractEntry deps/leptonica/src/colorspace.c
+308 silly gunzTarPerm modified mode [ 'deps/leptonica/src/colorspace.c', 420, 438 ]
+309 silly gunzTarPerm extractEntry deps/leptonica/src/compare.c
+310 silly gunzTarPerm modified mode [ 'deps/leptonica/src/compare.c', 420, 438 ]
+311 silly gunzTarPerm extractEntry deps/leptonica/src/conncomp.c
+312 silly gunzTarPerm modified mode [ 'deps/leptonica/src/conncomp.c', 420, 438 ]
+313 silly gunzTarPerm extractEntry deps/leptonica/src/convertfiles.c
+314 silly gunzTarPerm modified mode [ 'deps/leptonica/src/convertfiles.c', 420, 438 ]
+315 silly gunzTarPerm extractEntry deps/leptonica/src/convolve.c
+316 silly gunzTarPerm modified mode [ 'deps/leptonica/src/convolve.c', 420, 438 ]
+317 silly gunzTarPerm extractEntry deps/leptonica/src/convolvelow.c
+318 silly gunzTarPerm modified mode [ 'deps/leptonica/src/convolvelow.c', 420, 438 ]
+319 silly gunzTarPerm extractEntry deps/leptonica/src/correlscore.c
+320 silly gunzTarPerm modified mode [ 'deps/leptonica/src/correlscore.c', 420, 438 ]
+321 silly gunzTarPerm extractEntry deps/leptonica/src/dewarp.c
+322 silly gunzTarPerm modified mode [ 'deps/leptonica/src/dewarp.c', 420, 438 ]
+323 silly gunzTarPerm extractEntry deps/leptonica/src/dewarp.h
+324 silly gunzTarPerm modified mode [ 'deps/leptonica/src/dewarp.h', 420, 438 ]
+325 silly gunzTarPerm extractEntry deps/leptonica/src/dnabasic.c
+326 silly gunzTarPerm modified mode [ 'deps/leptonica/src/dnabasic.c', 420, 438 ]
+327 silly gunzTarPerm extractEntry deps/leptonica/src/dwacomb.2.c
+328 silly gunzTarPerm modified mode [ 'deps/leptonica/src/dwacomb.2.c', 420, 438 ]
+329 silly gunzTarPerm extractEntry deps/leptonica/src/dwacomblow.2.c
+330 silly gunzTarPerm modified mode [ 'deps/leptonica/src/dwacomblow.2.c', 420, 438 ]
+331 silly gunzTarPerm extractEntry deps/leptonica/src/edge.c
+332 silly gunzTarPerm modified mode [ 'deps/leptonica/src/edge.c', 420, 438 ]
+333 silly gunzTarPerm extractEntry deps/leptonica/src/endianness.h
+334 silly gunzTarPerm modified mode [ 'deps/leptonica/src/endianness.h', 420, 438 ]
+335 silly gunzTarPerm extractEntry deps/leptonica/src/enhance.c
+336 silly gunzTarPerm modified mode [ 'deps/leptonica/src/enhance.c', 420, 438 ]
+337 silly gunzTarPerm extractEntry deps/leptonica/src/environ.h
+338 silly gunzTarPerm modified mode [ 'deps/leptonica/src/environ.h', 420, 438 ]
+339 silly gunzTarPerm extractEntry deps/leptonica/src/fhmtauto.c
+340 silly gunzTarPerm modified mode [ 'deps/leptonica/src/fhmtauto.c', 420, 438 ]
+341 silly gunzTarPerm extractEntry deps/leptonica/src/fhmtgen.1.c
+342 silly gunzTarPerm modified mode [ 'deps/leptonica/src/fhmtgen.1.c', 420, 438 ]
+343 silly gunzTarPerm extractEntry deps/leptonica/src/fhmtgenlow.1.c
+344 silly gunzTarPerm modified mode [ 'deps/leptonica/src/fhmtgenlow.1.c', 420, 438 ]
+345 silly gunzTarPerm extractEntry deps/leptonica/src/finditalic.c
+346 silly gunzTarPerm modified mode [ 'deps/leptonica/src/finditalic.c', 420, 438 ]
+347 silly gunzTarPerm extractEntry deps/leptonica/src/flipdetect.c
+348 silly gunzTarPerm modified mode [ 'deps/leptonica/src/flipdetect.c', 420, 438 ]
+349 silly gunzTarPerm extractEntry deps/leptonica/src/fliphmtgen.c
+350 silly gunzTarPerm modified mode [ 'deps/leptonica/src/fliphmtgen.c', 420, 438 ]
+351 silly gunzTarPerm extractEntry deps/leptonica/src/fmorphauto.c
+352 silly gunzTarPerm modified mode [ 'deps/leptonica/src/fmorphauto.c', 420, 438 ]
+353 silly gunzTarPerm extractEntry deps/leptonica/src/fmorphgen.1.c
+354 silly gunzTarPerm modified mode [ 'deps/leptonica/src/fmorphgen.1.c', 420, 438 ]
+355 silly gunzTarPerm extractEntry deps/leptonica/src/fmorphgenlow.1.c
+356 silly gunzTarPerm modified mode [ 'deps/leptonica/src/fmorphgenlow.1.c', 420, 438 ]
+357 silly gunzTarPerm extractEntry deps/leptonica/src/fpix1.c
+358 silly gunzTarPerm modified mode [ 'deps/leptonica/src/fpix1.c', 420, 438 ]
+359 silly gunzTarPerm extractEntry deps/leptonica/src/fpix2.c
+360 silly gunzTarPerm modified mode [ 'deps/leptonica/src/fpix2.c', 420, 438 ]
+361 silly gunzTarPerm extractEntry deps/leptonica/src/freetype.c
+362 silly gunzTarPerm modified mode [ 'deps/leptonica/src/freetype.c', 420, 438 ]
+363 silly gunzTarPerm extractEntry deps/leptonica/src/freetype.h
+364 silly gunzTarPerm modified mode [ 'deps/leptonica/src/freetype.h', 420, 438 ]
+365 silly gunzTarPerm extractEntry deps/leptonica/src/gifio.c
+366 silly gunzTarPerm modified mode [ 'deps/leptonica/src/gifio.c', 420, 438 ]
+367 silly gunzTarPerm extractEntry deps/leptonica/src/gifiostub.c
+368 silly gunzTarPerm modified mode [ 'deps/leptonica/src/gifiostub.c', 420, 438 ]
+369 silly gunzTarPerm extractEntry deps/leptonica/src/gplot.c
+370 silly gunzTarPerm modified mode [ 'deps/leptonica/src/gplot.c', 420, 438 ]
+371 silly gentlyRm C:\Users\sunkudo\node_modules\.staging\chai-19f36152\node_modules is being purged
+372 verbose gentlyRm don't care about contents; nuking C:\Users\sunkudo\node_modules\.staging\chai-19f36152\node_modules
+373 silly gunzTarPerm extractEntry deps/leptonica/src/gplot.h
+374 silly gunzTarPerm modified mode [ 'deps/leptonica/src/gplot.h', 420, 438 ]
+375 silly gunzTarPerm extractEntry deps/leptonica/src/graphics.c
+376 silly gunzTarPerm modified mode [ 'deps/leptonica/src/graphics.c', 420, 438 ]
+377 silly gunzTarPerm extractEntry deps/leptonica/src/graymorph.c
+378 silly gunzTarPerm modified mode [ 'deps/leptonica/src/graymorph.c', 420, 438 ]
+379 silly gunzTarPerm extractEntry deps/leptonica/src/graymorphlow.c
+380 silly gunzTarPerm modified mode [ 'deps/leptonica/src/graymorphlow.c', 420, 438 ]
+381 silly gunzTarPerm extractEntry deps/leptonica/src/grayquant.c
+382 silly gunzTarPerm modified mode [ 'deps/leptonica/src/grayquant.c', 420, 438 ]
+383 silly gunzTarPerm extractEntry deps/leptonica/src/grayquantlow.c
+384 silly gunzTarPerm modified mode [ 'deps/leptonica/src/grayquantlow.c', 420, 438 ]
+385 silly gunzTarPerm extractEntry deps/leptonica/src/heap.c
+386 silly gunzTarPerm modified mode [ 'deps/leptonica/src/heap.c', 420, 438 ]
+387 silly gunzTarPerm extractEntry deps/leptonica/src/heap.h
+388 silly gunzTarPerm modified mode [ 'deps/leptonica/src/heap.h', 420, 438 ]
+389 silly gunzTarPerm extractEntry deps/leptonica/src/imageio.h
+390 silly gunzTarPerm modified mode [ 'deps/leptonica/src/imageio.h', 420, 438 ]
+391 silly gunzTarPerm extractEntry deps/leptonica/src/jbclass.c
+392 silly gunzTarPerm modified mode [ 'deps/leptonica/src/jbclass.c', 420, 438 ]
+393 silly gunzTarPerm extractEntry deps/leptonica/src/jbclass.h
+394 silly gunzTarPerm modified mode [ 'deps/leptonica/src/jbclass.h', 420, 438 ]
+395 silly gunzTarPerm extractEntry deps/leptonica/src/jpegio.c
+396 silly gunzTarPerm modified mode [ 'deps/leptonica/src/jpegio.c', 420, 438 ]
+397 silly gunzTarPerm extractEntry deps/leptonica/src/jpegiostub.c
+398 silly gunzTarPerm modified mode [ 'deps/leptonica/src/jpegiostub.c', 420, 438 ]
+399 silly gunzTarPerm extractEntry deps/leptonica/src/kernel.c
+400 silly gunzTarPerm modified mode [ 'deps/leptonica/src/kernel.c', 420, 438 ]
+401 silly gunzTarPerm extractEntry deps/leptonica/src/leptwin.c
+402 silly gunzTarPerm modified mode [ 'deps/leptonica/src/leptwin.c', 420, 438 ]
+403 silly gunzTarPerm extractEntry deps/leptonica/src/leptwin.h
+404 silly gunzTarPerm modified mode [ 'deps/leptonica/src/leptwin.h', 420, 438 ]
+405 silly gunzTarPerm extractEntry deps/leptonica/src/libversions.c
+406 silly gunzTarPerm modified mode [ 'deps/leptonica/src/libversions.c', 420, 438 ]
+407 silly gunzTarPerm extractEntry deps/leptonica/src/affine.c
+408 silly gunzTarPerm modified mode [ 'deps/leptonica/src/affine.c', 420, 438 ]
+409 silly gunzTarPerm extractEntry deps/leptonica/src/list.h
+410 silly gunzTarPerm modified mode [ 'deps/leptonica/src/list.h', 420, 438 ]
+411 silly gunzTarPerm extractEntry deps/leptonica/src/maze.c
+412 silly gunzTarPerm modified mode [ 'deps/leptonica/src/maze.c', 420, 438 ]
+413 silly gunzTarPerm extractEntry deps/leptonica/src/morph.c
+414 silly gunzTarPerm modified mode [ 'deps/leptonica/src/morph.c', 420, 438 ]
+415 silly gunzTarPerm extractEntry deps/leptonica/src/morph.h
+416 silly gunzTarPerm modified mode [ 'deps/leptonica/src/morph.h', 420, 438 ]
+417 silly gunzTarPerm extractEntry deps/leptonica/src/morphapp.c
+418 silly gunzTarPerm modified mode [ 'deps/leptonica/src/morphapp.c', 420, 438 ]
+419 silly gunzTarPerm extractEntry deps/leptonica/src/morphdwa.c
+420 silly gunzTarPerm modified mode [ 'deps/leptonica/src/morphdwa.c', 420, 438 ]
+421 silly gunzTarPerm extractEntry deps/leptonica/src/morphseq.c
+422 silly gunzTarPerm modified mode [ 'deps/leptonica/src/morphseq.c', 420, 438 ]
+423 silly gunzTarPerm extractEntry deps/leptonica/src/numabasic.c
+424 silly gunzTarPerm modified mode [ 'deps/leptonica/src/numabasic.c', 420, 438 ]
+425 silly gunzTarPerm extractEntry deps/leptonica/src/numafunc1.c
+426 silly gunzTarPerm modified mode [ 'deps/leptonica/src/numafunc1.c', 420, 438 ]
+427 silly gunzTarPerm extractEntry deps/leptonica/src/numafunc2.c
+428 silly gunzTarPerm modified mode [ 'deps/leptonica/src/numafunc2.c', 420, 438 ]
+429 silly gunzTarPerm extractEntry deps/leptonica/src/pageseg.c
+430 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pageseg.c', 420, 438 ]
+431 silly gunzTarPerm extractEntry deps/leptonica/src/paintcmap.c
+432 silly gunzTarPerm modified mode [ 'deps/leptonica/src/paintcmap.c', 420, 438 ]
+433 silly gunzTarPerm extractEntry deps/leptonica/src/parseprotos.c
+434 silly gunzTarPerm modified mode [ 'deps/leptonica/src/parseprotos.c', 420, 438 ]
+435 silly gunzTarPerm extractEntry deps/leptonica/src/partition.c
+436 silly gunzTarPerm modified mode [ 'deps/leptonica/src/partition.c', 420, 438 ]
+437 silly gunzTarPerm extractEntry deps/leptonica/src/pdfio.c
+438 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pdfio.c', 420, 438 ]
+439 silly gunzTarPerm extractEntry deps/leptonica/src/pdfiostub.c
+440 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pdfiostub.c', 420, 438 ]
+441 silly gunzTarPerm extractEntry deps/leptonica/src/pix.h
+442 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pix.h', 420, 438 ]
+443 silly gunzTarPerm extractEntry deps/leptonica/src/pix1.c
+444 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pix1.c', 420, 438 ]
+445 silly gunzTarPerm extractEntry deps/leptonica/src/pix2.c
+446 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pix2.c', 420, 438 ]
+447 silly gunzTarPerm extractEntry deps/leptonica/src/pix3.c
+448 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pix3.c', 420, 438 ]
+449 silly gunzTarPerm extractEntry deps/leptonica/src/pix4.c
+450 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pix4.c', 420, 438 ]
+451 silly gunzTarPerm extractEntry deps/leptonica/src/pix5.c
+452 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pix5.c', 420, 438 ]
+453 silly gunzTarPerm extractEntry deps/leptonica/src/pixabasic.c
+454 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pixabasic.c', 420, 438 ]
+455 silly gunzTarPerm extractEntry deps/leptonica/src/pixacc.c
+456 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pixacc.c', 420, 438 ]
+457 silly gunzTarPerm extractEntry deps/leptonica/src/pixafunc1.c
+458 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pixafunc1.c', 420, 438 ]
+459 silly gunzTarPerm extractEntry deps/leptonica/src/pixafunc2.c
+460 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pixafunc2.c', 420, 438 ]
+461 silly gunzTarPerm extractEntry deps/leptonica/src/pixalloc.c
+462 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pixalloc.c', 420, 438 ]
+463 silly gunzTarPerm extractEntry deps/leptonica/src/pixarith.c
+464 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pixarith.c', 420, 438 ]
+465 silly gunzTarPerm extractEntry deps/leptonica/src/pixcomp.c
+466 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pixcomp.c', 420, 438 ]
+467 silly gunzTarPerm extractEntry deps/leptonica/src/pixconv.c
+468 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pixconv.c', 420, 438 ]
+469 silly gunzTarPerm extractEntry deps/leptonica/src/pixtiling.c
+470 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pixtiling.c', 420, 438 ]
+471 silly gunzTarPerm extractEntry deps/leptonica/src/pngio.c
+472 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pngio.c', 420, 438 ]
+473 silly gunzTarPerm extractEntry deps/leptonica/src/pngiostub.c
+474 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pngiostub.c', 420, 438 ]
+475 silly gunzTarPerm extractEntry deps/leptonica/src/pnmio.c
+476 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pnmio.c', 420, 438 ]
+477 silly gunzTarPerm extractEntry deps/leptonica/src/pnmiostub.c
+478 silly gunzTarPerm modified mode [ 'deps/leptonica/src/pnmiostub.c', 420, 438 ]
+479 silly gunzTarPerm extractEntry deps/leptonica/src/projective.c
+480 silly gunzTarPerm modified mode [ 'deps/leptonica/src/projective.c', 420, 438 ]
+481 silly gunzTarPerm extractEntry deps/leptonica/src/psio1.c
+482 silly gunzTarPerm modified mode [ 'deps/leptonica/src/psio1.c', 420, 438 ]
+483 silly gunzTarPerm extractEntry deps/leptonica/src/psio1stub.c
+484 silly gunzTarPerm modified mode [ 'deps/leptonica/src/psio1stub.c', 420, 438 ]
+485 silly gunzTarPerm extractEntry deps/leptonica/src/psio2.c
+486 silly gunzTarPerm modified mode [ 'deps/leptonica/src/psio2.c', 420, 438 ]
+487 silly gunzTarPerm extractEntry deps/leptonica/src/psio2stub.c
+488 silly gunzTarPerm modified mode [ 'deps/leptonica/src/psio2stub.c', 420, 438 ]
+489 silly gunzTarPerm extractEntry deps/leptonica/src/ptabasic.c
+490 silly gunzTarPerm modified mode [ 'deps/leptonica/src/ptabasic.c', 420, 438 ]
+491 silly gunzTarPerm extractEntry deps/leptonica/src/ptafunc1.c
+492 silly gunzTarPerm modified mode [ 'deps/leptonica/src/ptafunc1.c', 420, 438 ]
+493 silly gunzTarPerm extractEntry deps/leptonica/src/ptra.c
+494 silly gunzTarPerm modified mode [ 'deps/leptonica/src/ptra.c', 420, 438 ]
+495 silly gunzTarPerm extractEntry deps/leptonica/src/ptra.h
+496 silly gunzTarPerm modified mode [ 'deps/leptonica/src/ptra.h', 420, 438 ]
+497 silly gunzTarPerm extractEntry deps/leptonica/src/quadtree.c
+498 silly gunzTarPerm modified mode [ 'deps/leptonica/src/quadtree.c', 420, 438 ]
+499 silly gunzTarPerm extractEntry deps/leptonica/src/queue.c
+500 silly gunzTarPerm modified mode [ 'deps/leptonica/src/queue.c', 420, 438 ]
+501 silly gunzTarPerm extractEntry deps/leptonica/src/queue.h
+502 silly gunzTarPerm modified mode [ 'deps/leptonica/src/queue.h', 420, 438 ]
+503 silly gunzTarPerm extractEntry deps/leptonica/src/rank.c
+504 silly gunzTarPerm modified mode [ 'deps/leptonica/src/rank.c', 420, 438 ]
+505 silly gunzTarPerm extractEntry deps/leptonica/src/readbarcode.c
+506 silly gunzTarPerm modified mode [ 'deps/leptonica/src/readbarcode.c', 420, 438 ]
+507 silly gunzTarPerm extractEntry deps/leptonica/src/readbarcode.h
+508 silly gunzTarPerm modified mode [ 'deps/leptonica/src/readbarcode.h', 420, 438 ]
+509 silly gunzTarPerm extractEntry deps/leptonica/src/readfile.c
+510 silly gunzTarPerm modified mode [ 'deps/leptonica/src/readfile.c', 420, 438 ]
+511 silly gunzTarPerm extractEntry deps/leptonica/src/regutils.c
+512 silly gunzTarPerm modified mode [ 'deps/leptonica/src/regutils.c', 420, 438 ]
+513 silly gunzTarPerm extractEntry deps/leptonica/src/regutils.h
+514 silly gunzTarPerm modified mode [ 'deps/leptonica/src/regutils.h', 420, 438 ]
+515 silly gunzTarPerm extractEntry deps/leptonica/src/rop.c
+516 silly gunzTarPerm modified mode [ 'deps/leptonica/src/rop.c', 420, 438 ]
+517 silly gunzTarPerm extractEntry deps/leptonica/src/ropiplow.c
+518 silly gunzTarPerm modified mode [ 'deps/leptonica/src/ropiplow.c', 420, 438 ]
+519 silly gunzTarPerm extractEntry deps/leptonica/src/roplow.c
+520 silly gunzTarPerm modified mode [ 'deps/leptonica/src/roplow.c', 420, 438 ]
+521 silly gunzTarPerm extractEntry deps/leptonica/src/rotate.c
+522 silly gunzTarPerm modified mode [ 'deps/leptonica/src/rotate.c', 420, 438 ]
+523 silly gunzTarPerm extractEntry deps/leptonica/src/rotateam.c
+524 silly gunzTarPerm modified mode [ 'deps/leptonica/src/rotateam.c', 420, 438 ]
+525 silly gunzTarPerm extractEntry deps/leptonica/src/rotateamlow.c
+526 silly gunzTarPerm modified mode [ 'deps/leptonica/src/rotateamlow.c', 420, 438 ]
+527 silly gunzTarPerm extractEntry deps/leptonica/src/rotateorth.c
+528 silly gunzTarPerm modified mode [ 'deps/leptonica/src/rotateorth.c', 420, 438 ]
+529 silly gunzTarPerm extractEntry deps/leptonica/src/rotateorthlow.c
+530 silly gunzTarPerm modified mode [ 'deps/leptonica/src/rotateorthlow.c', 420, 438 ]
+531 silly gunzTarPerm extractEntry deps/leptonica/src/rotateshear.c
+532 silly gunzTarPerm modified mode [ 'deps/leptonica/src/rotateshear.c', 420, 438 ]
+533 silly gunzTarPerm extractEntry deps/leptonica/src/runlength.c
+534 silly gunzTarPerm modified mode [ 'deps/leptonica/src/runlength.c', 420, 438 ]
+535 silly gunzTarPerm extractEntry deps/leptonica/src/sarray.c
+536 silly gunzTarPerm modified mode [ 'deps/leptonica/src/sarray.c', 420, 438 ]
+537 silly gunzTarPerm extractEntry deps/leptonica/src/scale.c
+538 silly gunzTarPerm modified mode [ 'deps/leptonica/src/scale.c', 420, 438 ]
+539 silly gunzTarPerm extractEntry deps/leptonica/src/scalelow.c
+540 silly gunzTarPerm modified mode [ 'deps/leptonica/src/scalelow.c', 420, 438 ]
+541 silly gunzTarPerm extractEntry deps/leptonica/src/seedfill.c
+542 silly gunzTarPerm modified mode [ 'deps/leptonica/src/seedfill.c', 420, 438 ]
+543 silly gunzTarPerm extractEntry deps/leptonica/src/seedfilllow.c
+544 silly gunzTarPerm modified mode [ 'deps/leptonica/src/seedfilllow.c', 420, 438 ]
+545 silly gunzTarPerm extractEntry deps/leptonica/src/sel1.c
+546 silly gunzTarPerm modified mode [ 'deps/leptonica/src/sel1.c', 420, 438 ]
+547 silly gunzTarPerm extractEntry deps/leptonica/src/sel2.c
+548 silly gunzTarPerm modified mode [ 'deps/leptonica/src/sel2.c', 420, 438 ]
+549 silly gunzTarPerm extractEntry deps/leptonica/src/selgen.c
+550 silly gunzTarPerm modified mode [ 'deps/leptonica/src/selgen.c', 420, 438 ]
+551 silly gunzTarPerm extractEntry deps/leptonica/src/shear.c
+552 silly gunzTarPerm modified mode [ 'deps/leptonica/src/shear.c', 420, 438 ]
+553 silly gunzTarPerm extractEntry deps/leptonica/src/skew.c
+554 silly gunzTarPerm modified mode [ 'deps/leptonica/src/skew.c', 420, 438 ]
+555 silly gunzTarPerm extractEntry deps/leptonica/src/spixio.c
+556 silly gunzTarPerm modified mode [ 'deps/leptonica/src/spixio.c', 420, 438 ]
+557 silly gunzTarPerm extractEntry deps/leptonica/src/stack.c
+558 silly gunzTarPerm modified mode [ 'deps/leptonica/src/stack.c', 420, 438 ]
+559 silly gunzTarPerm extractEntry deps/leptonica/src/stack.h
+560 silly gunzTarPerm modified mode [ 'deps/leptonica/src/stack.h', 420, 438 ]
+561 silly gunzTarPerm extractEntry deps/leptonica/src/sudoku.c
+562 silly gunzTarPerm modified mode [ 'deps/leptonica/src/sudoku.c', 420, 438 ]
+563 silly gunzTarPerm extractEntry deps/leptonica/src/sudoku.h
+564 silly gunzTarPerm modified mode [ 'deps/leptonica/src/sudoku.h', 420, 438 ]
+565 silly gunzTarPerm extractEntry deps/leptonica/src/textops.c
+566 silly gunzTarPerm modified mode [ 'deps/leptonica/src/textops.c', 420, 438 ]
+567 silly gunzTarPerm extractEntry deps/leptonica/src/tiffio.c
+568 silly gunzTarPerm modified mode [ 'deps/leptonica/src/tiffio.c', 420, 438 ]
+569 silly gunzTarPerm extractEntry deps/leptonica/src/tiffiostub.c
+570 silly gunzTarPerm modified mode [ 'deps/leptonica/src/tiffiostub.c', 420, 438 ]
+571 silly gunzTarPerm extractEntry deps/leptonica/src/utils.c
+572 silly gunzTarPerm modified mode [ 'deps/leptonica/src/utils.c', 420, 438 ]
+573 silly gunzTarPerm extractEntry deps/leptonica/src/viewfiles.c
+574 silly gunzTarPerm modified mode [ 'deps/leptonica/src/viewfiles.c', 420, 438 ]
+575 silly gunzTarPerm extractEntry deps/leptonica/src/warper.c
+576 silly gunzTarPerm modified mode [ 'deps/leptonica/src/warper.c', 420, 438 ]
+577 silly gunzTarPerm extractEntry deps/leptonica/src/watershed.c
+578 silly gunzTarPerm modified mode [ 'deps/leptonica/src/watershed.c', 420, 438 ]
+579 silly gunzTarPerm extractEntry deps/leptonica/src/watershed.h
+580 silly gunzTarPerm modified mode [ 'deps/leptonica/src/watershed.h', 420, 438 ]
+581 silly gunzTarPerm extractEntry deps/leptonica/src/webpio.c
+582 silly gunzTarPerm modified mode [ 'deps/leptonica/src/webpio.c', 420, 438 ]
+583 silly gunzTarPerm extractEntry deps/leptonica/src/webpiostub.c
+584 silly gunzTarPerm modified mode [ 'deps/leptonica/src/webpiostub.c', 420, 438 ]
+585 silly gunzTarPerm extractEntry deps/leptonica/src/writefile.c
+586 silly gunzTarPerm modified mode [ 'deps/leptonica/src/writefile.c', 420, 438 ]
+587 silly gunzTarPerm extractEntry deps/leptonica/src/zlibmem.c
+588 silly gunzTarPerm modified mode [ 'deps/leptonica/src/zlibmem.c', 420, 438 ]
+589 silly gunzTarPerm extractEntry deps/leptonica/src/zlibmemstub.c
+590 silly gunzTarPerm modified mode [ 'deps/leptonica/src/zlibmemstub.c', 420, 438 ]
+591 silly gunzTarPerm extractEntry deps/tesseract/dict/permute.cpp
+592 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/permute.cpp', 420, 438 ]
+593 silly gunzTarPerm extractEntry deps/tesseract/dict/context.cpp
+594 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/context.cpp', 420, 438 ]
+595 silly gunzTarPerm extractEntry deps/tesseract/dict/dawg.h
+596 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/dawg.h', 420, 438 ]
+597 silly gunzTarPerm extractEntry deps/tesseract/dict/dict.cpp
+598 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/dict.cpp', 420, 438 ]
+599 silly gunzTarPerm extractEntry deps/tesseract/dict/dict.h
+600 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/dict.h', 420, 438 ]
+601 silly gunzTarPerm extractEntry deps/tesseract/dict/hyphen.cpp
+602 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/hyphen.cpp', 420, 438 ]
+603 silly gunzTarPerm extractEntry deps/tesseract/dict/matchdefs.h
+604 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/matchdefs.h', 420, 438 ]
+605 silly gunzTarPerm extractEntry deps/tesseract/dict/permdawg.cpp
+606 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/permdawg.cpp', 420, 438 ]
+607 silly gunzTarPerm extractEntry deps/tesseract/dict/dawg.cpp
+608 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/dawg.cpp', 420, 438 ]
+609 silly gunzTarPerm extractEntry deps/tesseract/dict/permute.h
+610 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/permute.h', 420, 438 ]
+611 silly gunzTarPerm extractEntry deps/tesseract/dict/states.cpp
+612 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/states.cpp', 420, 438 ]
+613 silly gunzTarPerm extractEntry deps/tesseract/dict/states.h
+614 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/states.h', 420, 438 ]
+615 silly gunzTarPerm extractEntry deps/tesseract/dict/stopper.cpp
+616 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/stopper.cpp', 420, 438 ]
+617 silly gunzTarPerm extractEntry deps/tesseract/dict/stopper.h
+618 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/stopper.h', 420, 438 ]
+619 silly gunzTarPerm extractEntry deps/tesseract/dict/trie.cpp
+620 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/trie.cpp', 420, 438 ]
+621 silly gunzTarPerm extractEntry deps/tesseract/dict/trie.h
+622 silly gunzTarPerm modified mode [ 'deps/tesseract/dict/trie.h', 420, 438 ]
+623 silly gunzTarPerm extractEntry deps/tesseract/api/apitypes.h
+624 silly gunzTarPerm modified mode [ 'deps/tesseract/api/apitypes.h', 420, 438 ]
+625 silly gunzTarPerm extractEntry deps/tesseract/api/baseapi.cpp
+626 silly gunzTarPerm modified mode [ 'deps/tesseract/api/baseapi.cpp', 420, 438 ]
+627 silly gunzTarPerm extractEntry deps/tesseract/api/baseapi.h
+628 silly gunzTarPerm modified mode [ 'deps/tesseract/api/baseapi.h', 420, 438 ]
+629 silly gunzTarPerm extractEntry deps/tesseract/api/capi.cpp
+630 silly gunzTarPerm modified mode [ 'deps/tesseract/api/capi.cpp', 420, 438 ]
+631 silly gunzTarPerm extractEntry deps/tesseract/api/capi.h
+632 silly gunzTarPerm modified mode [ 'deps/tesseract/api/capi.h', 420, 438 ]
+633 silly gunzTarPerm extractEntry deps/tesseract/api/tesseractmain.cpp
+634 silly gunzTarPerm modified mode [ 'deps/tesseract/api/tesseractmain.cpp', 420, 438 ]
+635 silly gunzTarPerm extractEntry deps/tesseract/api/tesseractmain.h
+636 silly gunzTarPerm modified mode [ 'deps/tesseract/api/tesseractmain.h', 420, 438 ]
+637 silly gunzTarPerm extractEntry deps/tesseract/api/version.h
+638 silly gunzTarPerm modified mode [ 'deps/tesseract/api/version.h', 420, 438 ]
+639 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ocrrow.h
+640 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ocrrow.h', 420, 438 ]
+641 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/blckerr.h
+642 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/blckerr.h', 420, 438 ]
+643 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/blobbox.h
+644 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/blobbox.h', 420, 438 ]
+645 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/blobs.cpp
+646 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/blobs.cpp', 420, 438 ]
+647 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/blobs.h
+648 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/blobs.h', 420, 438 ]
+649 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/blread.cpp
+650 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/blread.cpp', 420, 438 ]
+651 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/blread.h
+652 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/blread.h', 420, 438 ]
+653 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/boxread.cpp
+654 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/boxread.cpp', 420, 438 ]
+655 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/boxread.h
+656 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/boxread.h', 420, 438 ]
+657 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/boxword.cpp
+658 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/boxword.cpp', 420, 438 ]
+659 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/boxword.h
+660 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/boxword.h', 420, 438 ]
+661 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ccstruct.cpp
+662 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ccstruct.cpp', 420, 438 ]
+663 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ccstruct.h
+664 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ccstruct.h', 420, 438 ]
+665 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/coutln.cpp
+666 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/coutln.cpp', 420, 438 ]
+667 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/coutln.h
+668 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/coutln.h', 420, 438 ]
+669 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/crakedge.h
+670 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/crakedge.h', 420, 438 ]
+671 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/detlinefit.cpp
+672 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/detlinefit.cpp', 420, 438 ]
+673 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/detlinefit.h
+674 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/detlinefit.h', 420, 438 ]
+675 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/dppoint.cpp
+676 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/dppoint.cpp', 420, 438 ]
+677 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/dppoint.h
+678 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/dppoint.h', 420, 438 ]
+679 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/fontinfo.cpp
+680 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/fontinfo.cpp', 420, 438 ]
+681 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/fontinfo.h
+682 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/fontinfo.h', 420, 438 ]
+683 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/genblob.cpp
+684 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/genblob.cpp', 420, 438 ]
+685 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/genblob.h
+686 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/genblob.h', 420, 438 ]
+687 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/hpddef.h
+688 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/hpddef.h', 420, 438 ]
+689 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/hpdsizes.h
+690 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/hpdsizes.h', 420, 438 ]
+691 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ipoints.h
+692 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ipoints.h', 420, 438 ]
+693 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/linlsq.cpp
+694 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/linlsq.cpp', 420, 438 ]
+695 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/linlsq.h
+696 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/linlsq.h', 420, 438 ]
+697 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/matrix.cpp
+698 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/matrix.cpp', 420, 438 ]
+699 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/matrix.h
+700 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/matrix.h', 420, 438 ]
+701 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/mod128.cpp
+702 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/mod128.cpp', 420, 438 ]
+703 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/mod128.h
+704 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/mod128.h', 420, 438 ]
+705 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/normalis.cpp
+706 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/normalis.cpp', 420, 438 ]
+707 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/normalis.h
+708 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/normalis.h', 420, 438 ]
+709 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ocrblock.cpp
+710 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ocrblock.cpp', 420, 438 ]
+711 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ocrblock.h
+712 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ocrblock.h', 420, 438 ]
+713 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ocrpara.cpp
+714 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ocrpara.cpp', 420, 438 ]
+715 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ocrpara.h
+716 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ocrpara.h', 420, 438 ]
+717 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ocrrow.cpp
+718 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ocrrow.cpp', 420, 438 ]
+719 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/blobbox.cpp
+720 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/blobbox.cpp', 420, 438 ]
+721 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/otsuthr.cpp
+722 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/otsuthr.cpp', 420, 438 ]
+723 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/otsuthr.h
+724 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/otsuthr.h', 420, 438 ]
+725 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/pageres.cpp
+726 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/pageres.cpp', 420, 438 ]
+727 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/pageres.h
+728 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/pageres.h', 420, 438 ]
+729 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/params_training_featdef.h
+730 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/params_training_featdef.h', 420, 438 ]
+731 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/pdblock.cpp
+732 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/pdblock.cpp', 420, 438 ]
+733 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/pdblock.h
+734 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/pdblock.h', 420, 438 ]
+735 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/points.cpp
+736 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/points.cpp', 420, 438 ]
+737 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/points.h
+738 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/points.h', 420, 438 ]
+739 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/polyaprx.cpp
+740 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/polyaprx.cpp', 420, 438 ]
+741 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/polyaprx.h
+742 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/polyaprx.h', 420, 438 ]
+743 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/polyblk.cpp
+744 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/polyblk.cpp', 420, 438 ]
+745 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/polyblk.h
+746 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/polyblk.h', 420, 438 ]
+747 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/publictypes.cpp
+748 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/publictypes.cpp', 420, 438 ]
+749 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/publictypes.h
+750 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/publictypes.h', 420, 438 ]
+751 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/quadlsq.cpp
+752 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/quadlsq.cpp', 420, 438 ]
+753 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/quadlsq.h
+754 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/quadlsq.h', 420, 438 ]
+755 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/quadratc.cpp
+756 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/quadratc.cpp', 420, 438 ]
+757 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/quadratc.h
+758 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/quadratc.h', 420, 438 ]
+759 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/quspline.cpp
+760 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/quspline.cpp', 420, 438 ]
+761 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/quspline.h
+762 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/quspline.h', 420, 438 ]
+763 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ratngs.cpp
+764 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ratngs.cpp', 420, 438 ]
+765 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/ratngs.h
+766 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/ratngs.h', 420, 438 ]
+767 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/rect.cpp
+768 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/rect.cpp', 420, 438 ]
+769 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/rect.h
+770 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/rect.h', 420, 438 ]
+771 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/rejctmap.cpp
+772 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/rejctmap.cpp', 420, 438 ]
+773 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/rejctmap.h
+774 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/rejctmap.h', 420, 438 ]
+775 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/seam.cpp
+776 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/seam.cpp', 420, 438 ]
+777 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/seam.h
+778 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/seam.h', 420, 438 ]
+779 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/split.cpp
+780 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/split.cpp', 420, 438 ]
+781 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/split.h
+782 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/split.h', 420, 438 ]
+783 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/statistc.cpp
+784 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/statistc.cpp', 420, 438 ]
+785 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/statistc.h
+786 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/statistc.h', 420, 438 ]
+787 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/stepblob.cpp
+788 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/stepblob.cpp', 420, 438 ]
+789 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/stepblob.h
+790 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/stepblob.h', 420, 438 ]
+791 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/vecfuncs.cpp
+792 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/vecfuncs.cpp', 420, 438 ]
+793 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/vecfuncs.h
+794 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/vecfuncs.h', 420, 438 ]
+795 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/werd.cpp
+796 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/werd.cpp', 420, 438 ]
+797 silly gunzTarPerm extractEntry deps/tesseract/ccstruct/werd.h
+798 silly gunzTarPerm modified mode [ 'deps/tesseract/ccstruct/werd.h', 420, 438 ]
+799 silly gunzTarPerm extractEntry deps/tesseract/ccutil/mfcpch.cpp
+800 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/mfcpch.cpp', 420, 438 ]
+801 silly gunzTarPerm extractEntry deps/tesseract/ccutil/ambigs.cpp
+802 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/ambigs.cpp', 420, 438 ]
+803 silly gunzTarPerm extractEntry deps/tesseract/ccutil/basedir.cpp
+804 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/basedir.cpp', 420, 438 ]
+805 silly gunzTarPerm extractEntry deps/tesseract/ccutil/basedir.h
+806 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/basedir.h', 420, 438 ]
+807 silly gunzTarPerm extractEntry deps/tesseract/ccutil/bits16.cpp
+808 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/bits16.cpp', 420, 438 ]
+809 silly gunzTarPerm extractEntry deps/tesseract/ccutil/bits16.h
+810 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/bits16.h', 420, 438 ]
+811 silly gunzTarPerm extractEntry deps/tesseract/ccutil/bitvector.cpp
+812 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/bitvector.cpp', 420, 438 ]
+813 silly gunzTarPerm extractEntry deps/tesseract/ccutil/bitvector.h
+814 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/bitvector.h', 420, 438 ]
+815 silly gunzTarPerm extractEntry deps/tesseract/ccutil/ccutil.cpp
+816 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/ccutil.cpp', 420, 438 ]
+817 silly gunzTarPerm extractEntry deps/tesseract/ccutil/ccutil.h
+818 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/ccutil.h', 420, 438 ]
+819 silly gunzTarPerm extractEntry deps/tesseract/ccutil/clst.cpp
+820 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/clst.cpp', 420, 438 ]
+821 silly gunzTarPerm extractEntry deps/tesseract/ccutil/clst.h
+822 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/clst.h', 420, 438 ]
+823 silly gunzTarPerm extractEntry deps/tesseract/ccutil/elst.cpp
+824 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/elst.cpp', 420, 438 ]
+825 silly gunzTarPerm extractEntry deps/tesseract/ccutil/elst.h
+826 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/elst.h', 420, 438 ]
+827 silly gunzTarPerm extractEntry deps/tesseract/ccutil/elst2.cpp
+828 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/elst2.cpp', 420, 438 ]
+829 silly gunzTarPerm extractEntry deps/tesseract/ccutil/elst2.h
+830 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/elst2.h', 420, 438 ]
+831 silly gunzTarPerm extractEntry deps/tesseract/ccutil/errcode.cpp
+832 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/errcode.cpp', 420, 438 ]
+833 silly gunzTarPerm extractEntry deps/tesseract/ccutil/errcode.h
+834 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/errcode.h', 420, 438 ]
+835 silly gunzTarPerm extractEntry deps/tesseract/ccutil/fileerr.h
+836 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/fileerr.h', 420, 438 ]
+837 silly gunzTarPerm extractEntry deps/tesseract/ccutil/genericvector.h
+838 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/genericvector.h', 420, 438 ]
+839 silly gunzTarPerm extractEntry deps/tesseract/ccutil/globaloc.cpp
+840 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/globaloc.cpp', 420, 438 ]
+841 silly gunzTarPerm extractEntry deps/tesseract/ccutil/globaloc.h
+842 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/globaloc.h', 420, 438 ]
+843 silly gunzTarPerm extractEntry deps/tesseract/ccutil/hashfn.cpp
+844 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/hashfn.cpp', 420, 438 ]
+845 silly gunzTarPerm extractEntry deps/tesseract/ccutil/hashfn.h
+846 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/hashfn.h', 420, 438 ]
+847 silly gunzTarPerm extractEntry deps/tesseract/ccutil/helpers.h
+848 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/helpers.h', 420, 438 ]
+849 silly gunzTarPerm extractEntry deps/tesseract/ccutil/host.h
+850 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/host.h', 420, 438 ]
+851 silly gunzTarPerm extractEntry deps/tesseract/ccutil/hosthplb.h
+852 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/hosthplb.h', 420, 438 ]
+853 silly gunzTarPerm extractEntry deps/tesseract/ccutil/indexmapbidi.cpp
+854 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/indexmapbidi.cpp', 420, 438 ]
+855 silly gunzTarPerm extractEntry deps/tesseract/ccutil/indexmapbidi.h
+856 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/indexmapbidi.h', 420, 438 ]
+857 silly gunzTarPerm extractEntry deps/tesseract/ccutil/lsterr.h
+858 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/lsterr.h', 420, 438 ]
+859 silly gunzTarPerm extractEntry deps/tesseract/ccutil/mainblk.cpp
+860 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/mainblk.cpp', 420, 438 ]
+861 silly gunzTarPerm extractEntry deps/tesseract/ccutil/memry.cpp
+862 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/memry.cpp', 420, 438 ]
+863 silly gunzTarPerm extractEntry deps/tesseract/ccutil/memry.h
+864 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/memry.h', 420, 438 ]
+865 silly gunzTarPerm extractEntry deps/tesseract/ccutil/ambigs.h
+866 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/ambigs.h', 420, 438 ]
+867 silly gunzTarPerm extractEntry deps/tesseract/ccutil/mfcpch.h
+868 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/mfcpch.h', 420, 438 ]
+869 silly gunzTarPerm extractEntry deps/tesseract/ccutil/ndminx.h
+870 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/ndminx.h', 420, 438 ]
+871 silly gunzTarPerm extractEntry deps/tesseract/ccutil/notdll.h
+872 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/notdll.h', 420, 438 ]
+873 silly gunzTarPerm extractEntry deps/tesseract/ccutil/nwmain.h
+874 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/nwmain.h', 420, 438 ]
+875 silly gunzTarPerm extractEntry deps/tesseract/ccutil/ocrclass.h
+876 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/ocrclass.h', 420, 438 ]
+877 silly gunzTarPerm extractEntry deps/tesseract/ccutil/params.cpp
+878 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/params.cpp', 420, 438 ]
+879 silly gunzTarPerm extractEntry deps/tesseract/ccutil/params.h
+880 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/params.h', 420, 438 ]
+881 silly gunzTarPerm extractEntry deps/tesseract/ccutil/platform.h
+882 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/platform.h', 420, 438 ]
+883 silly gunzTarPerm extractEntry deps/tesseract/ccutil/qrsequence.h
+884 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/qrsequence.h', 420, 438 ]
+885 silly gunzTarPerm extractEntry deps/tesseract/ccutil/scanutils.cpp
+886 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/scanutils.cpp', 420, 438 ]
+887 silly gunzTarPerm extractEntry deps/tesseract/ccutil/scanutils.h
+888 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/scanutils.h', 420, 438 ]
+889 silly gunzTarPerm extractEntry deps/tesseract/ccutil/secname.h
+890 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/secname.h', 420, 438 ]
+891 silly gunzTarPerm extractEntry deps/tesseract/ccutil/serialis.cpp
+892 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/serialis.cpp', 420, 438 ]
+893 silly gunzTarPerm extractEntry deps/tesseract/ccutil/serialis.h
+894 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/serialis.h', 420, 438 ]
+895 silly gunzTarPerm extractEntry deps/tesseract/ccutil/sorthelper.h
+896 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/sorthelper.h', 420, 438 ]
+897 silly gunzTarPerm extractEntry deps/tesseract/ccutil/stderr.h
+898 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/stderr.h', 420, 438 ]
+899 silly gunzTarPerm extractEntry deps/tesseract/ccutil/strngs.cpp
+900 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/strngs.cpp', 420, 438 ]
+901 silly gunzTarPerm extractEntry deps/tesseract/ccutil/strngs.h
+902 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/strngs.h', 420, 438 ]
+903 silly gunzTarPerm extractEntry deps/tesseract/ccutil/tesscallback.h
+904 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/tesscallback.h', 420, 438 ]
+905 silly gunzTarPerm extractEntry deps/tesseract/ccutil/tessdatamanager.cpp
+906 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/tessdatamanager.cpp', 420, 438 ]
+907 silly gunzTarPerm extractEntry deps/tesseract/ccutil/tessdatamanager.h
+908 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/tessdatamanager.h', 420, 438 ]
+909 silly gunzTarPerm extractEntry deps/tesseract/ccutil/tprintf.cpp
+910 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/tprintf.cpp', 420, 438 ]
+911 silly gunzTarPerm extractEntry deps/tesseract/ccutil/tprintf.h
+912 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/tprintf.h', 420, 438 ]
+913 silly gunzTarPerm extractEntry deps/tesseract/ccutil/unichar.cpp
+914 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/unichar.cpp', 420, 438 ]
+915 silly gunzTarPerm extractEntry deps/tesseract/ccutil/unichar.h
+916 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/unichar.h', 420, 438 ]
+917 silly gunzTarPerm extractEntry deps/tesseract/ccutil/unicharmap.cpp
+918 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/unicharmap.cpp', 420, 438 ]
+919 silly gunzTarPerm extractEntry deps/tesseract/ccutil/unicharmap.h
+920 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/unicharmap.h', 420, 438 ]
+921 silly gunzTarPerm extractEntry deps/tesseract/ccutil/unicharset.cpp
+922 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/unicharset.cpp', 420, 438 ]
+923 silly gunzTarPerm extractEntry deps/tesseract/ccutil/unicharset.h
+924 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/unicharset.h', 420, 438 ]
+925 silly gunzTarPerm extractEntry deps/tesseract/ccutil/unicity_table.h
+926 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/unicity_table.h', 420, 438 ]
+927 silly gunzTarPerm extractEntry deps/tesseract/ccutil/unicodes.cpp
+928 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/unicodes.cpp', 420, 438 ]
+929 silly gunzTarPerm extractEntry deps/tesseract/ccutil/unicodes.h
+930 silly gunzTarPerm modified mode [ 'deps/tesseract/ccutil/unicodes.h', 420, 438 ]
+931 silly gunzTarPerm extractEntry deps/tesseract/classify/intproto.cpp
+932 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intproto.cpp', 420, 438 ]
+933 silly gunzTarPerm extractEntry deps/tesseract/classify/adaptive.cpp
+934 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/adaptive.cpp', 420, 438 ]
+935 silly gunzTarPerm extractEntry deps/tesseract/classify/adaptmatch.cpp
+936 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/adaptmatch.cpp', 420, 438 ]
+937 silly gunzTarPerm extractEntry deps/tesseract/classify/baseline.h
+938 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/baseline.h', 420, 438 ]
+939 silly gunzTarPerm extractEntry deps/tesseract/classify/blobclass.cpp
+940 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/blobclass.cpp', 420, 438 ]
+941 silly gunzTarPerm extractEntry deps/tesseract/classify/blobclass.h
+942 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/blobclass.h', 420, 438 ]
+943 silly gunzTarPerm extractEntry deps/tesseract/classify/chartoname.cpp
+944 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/chartoname.cpp', 420, 438 ]
+945 silly gunzTarPerm extractEntry deps/tesseract/classify/chartoname.h
+946 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/chartoname.h', 420, 438 ]
+947 silly gunzTarPerm extractEntry deps/tesseract/classify/classify.cpp
+948 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/classify.cpp', 420, 438 ]
+949 silly gunzTarPerm extractEntry deps/tesseract/classify/classify.h
+950 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/classify.h', 420, 438 ]
+951 silly gunzTarPerm extractEntry deps/tesseract/classify/cluster.cpp
+952 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/cluster.cpp', 420, 438 ]
+953 silly gunzTarPerm extractEntry deps/tesseract/classify/cluster.h
+954 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/cluster.h', 420, 438 ]
+955 silly gunzTarPerm extractEntry deps/tesseract/classify/clusttool.cpp
+956 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/clusttool.cpp', 420, 438 ]
+957 silly gunzTarPerm extractEntry deps/tesseract/classify/clusttool.h
+958 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/clusttool.h', 420, 438 ]
+959 silly gunzTarPerm extractEntry deps/tesseract/classify/cutoffs.cpp
+960 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/cutoffs.cpp', 420, 438 ]
+961 silly gunzTarPerm extractEntry deps/tesseract/classify/cutoffs.h
+962 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/cutoffs.h', 420, 438 ]
+963 silly gunzTarPerm extractEntry deps/tesseract/classify/errorcounter.cpp
+964 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/errorcounter.cpp', 420, 438 ]
+965 silly gunzTarPerm extractEntry deps/tesseract/classify/errorcounter.h
+966 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/errorcounter.h', 420, 438 ]
+967 silly gunzTarPerm extractEntry deps/tesseract/classify/extern.h
+968 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/extern.h', 420, 438 ]
+969 silly gunzTarPerm extractEntry deps/tesseract/classify/extract.cpp
+970 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/extract.cpp', 420, 438 ]
+971 silly gunzTarPerm extractEntry deps/tesseract/classify/extract.h
+972 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/extract.h', 420, 438 ]
+973 silly gunzTarPerm extractEntry deps/tesseract/classify/featdefs.cpp
+974 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/featdefs.cpp', 420, 438 ]
+975 silly gunzTarPerm extractEntry deps/tesseract/classify/featdefs.h
+976 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/featdefs.h', 420, 438 ]
+977 silly gunzTarPerm extractEntry deps/tesseract/classify/flexfx.cpp
+978 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/flexfx.cpp', 420, 438 ]
+979 silly gunzTarPerm extractEntry deps/tesseract/classify/flexfx.h
+980 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/flexfx.h', 420, 438 ]
+981 silly gunzTarPerm extractEntry deps/tesseract/classify/float2int.cpp
+982 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/float2int.cpp', 420, 438 ]
+983 silly gunzTarPerm extractEntry deps/tesseract/classify/float2int.h
+984 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/float2int.h', 420, 438 ]
+985 silly gunzTarPerm extractEntry deps/tesseract/classify/fpoint.cpp
+986 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/fpoint.cpp', 420, 438 ]
+987 silly gunzTarPerm extractEntry deps/tesseract/classify/fpoint.h
+988 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/fpoint.h', 420, 438 ]
+989 silly gunzTarPerm extractEntry deps/tesseract/classify/fxdefs.cpp
+990 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/fxdefs.cpp', 420, 438 ]
+991 silly gunzTarPerm extractEntry deps/tesseract/classify/fxdefs.h
+992 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/fxdefs.h', 420, 438 ]
+993 silly gunzTarPerm extractEntry deps/tesseract/classify/intfeaturedist.cpp
+994 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intfeaturedist.cpp', 420, 438 ]
+995 silly gunzTarPerm extractEntry deps/tesseract/classify/intfeaturedist.h
+996 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intfeaturedist.h', 420, 438 ]
+997 silly gunzTarPerm extractEntry deps/tesseract/classify/intfeaturemap.cpp
+998 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intfeaturemap.cpp', 420, 438 ]
+999 silly gunzTarPerm extractEntry deps/tesseract/classify/intfeaturemap.h
+1000 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intfeaturemap.h', 420, 438 ]
+1001 silly gunzTarPerm extractEntry deps/tesseract/classify/intfeaturespace.cpp
+1002 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intfeaturespace.cpp', 420, 438 ]
+1003 silly gunzTarPerm extractEntry deps/tesseract/classify/intfeaturespace.h
+1004 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intfeaturespace.h', 420, 438 ]
+1005 silly gunzTarPerm extractEntry deps/tesseract/classify/intfx.cpp
+1006 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intfx.cpp', 420, 438 ]
+1007 silly gunzTarPerm extractEntry deps/tesseract/classify/intfx.h
+1008 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intfx.h', 420, 438 ]
+1009 silly gunzTarPerm extractEntry deps/tesseract/classify/intmatcher.cpp
+1010 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intmatcher.cpp', 420, 438 ]
+1011 silly gunzTarPerm extractEntry deps/tesseract/classify/intmatcher.h
+1012 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intmatcher.h', 420, 438 ]
+1013 silly gunzTarPerm extractEntry deps/tesseract/classify/adaptive.h
+1014 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/adaptive.h', 420, 438 ]
+1015 silly gunzTarPerm extractEntry deps/tesseract/classify/intproto.h
+1016 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/intproto.h', 420, 438 ]
+1017 silly gunzTarPerm extractEntry deps/tesseract/classify/kdtree.cpp
+1018 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/kdtree.cpp', 420, 438 ]
+1019 silly gunzTarPerm extractEntry deps/tesseract/classify/kdtree.h
+1020 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/kdtree.h', 420, 438 ]
+1021 silly gunzTarPerm extractEntry deps/tesseract/classify/mastertrainer.cpp
+1022 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mastertrainer.cpp', 420, 438 ]
+1023 silly gunzTarPerm extractEntry deps/tesseract/classify/mastertrainer.h
+1024 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mastertrainer.h', 420, 438 ]
+1025 silly gunzTarPerm extractEntry deps/tesseract/classify/mf.cpp
+1026 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mf.cpp', 420, 438 ]
+1027 silly gunzTarPerm extractEntry deps/tesseract/classify/mf.h
+1028 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mf.h', 420, 438 ]
+1029 silly gunzTarPerm extractEntry deps/tesseract/classify/mfdefs.cpp
+1030 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mfdefs.cpp', 420, 438 ]
+1031 silly gunzTarPerm extractEntry deps/tesseract/classify/mfdefs.h
+1032 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mfdefs.h', 420, 438 ]
+1033 silly gunzTarPerm extractEntry deps/tesseract/classify/mfoutline.cpp
+1034 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mfoutline.cpp', 420, 438 ]
+1035 silly gunzTarPerm extractEntry deps/tesseract/classify/mfoutline.h
+1036 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mfoutline.h', 420, 438 ]
+1037 silly gunzTarPerm extractEntry deps/tesseract/classify/mfx.cpp
+1038 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mfx.cpp', 420, 438 ]
+1039 silly gunzTarPerm extractEntry deps/tesseract/classify/mfx.h
+1040 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/mfx.h', 420, 438 ]
+1041 silly gunzTarPerm extractEntry deps/tesseract/classify/normfeat.cpp
+1042 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/normfeat.cpp', 420, 438 ]
+1043 silly gunzTarPerm extractEntry deps/tesseract/classify/normfeat.h
+1044 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/normfeat.h', 420, 438 ]
+1045 silly gunzTarPerm extractEntry deps/tesseract/classify/normmatch.cpp
+1046 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/normmatch.cpp', 420, 438 ]
+1047 silly gunzTarPerm extractEntry deps/tesseract/classify/normmatch.h
+1048 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/normmatch.h', 420, 438 ]
+1049 silly gunzTarPerm extractEntry deps/tesseract/classify/ocrfeatures.cpp
+1050 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/ocrfeatures.cpp', 420, 438 ]
+1051 silly gunzTarPerm extractEntry deps/tesseract/classify/ocrfeatures.h
+1052 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/ocrfeatures.h', 420, 438 ]
+1053 silly gunzTarPerm extractEntry deps/tesseract/classify/outfeat.cpp
+1054 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/outfeat.cpp', 420, 438 ]
+1055 silly gunzTarPerm extractEntry deps/tesseract/classify/outfeat.h
+1056 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/outfeat.h', 420, 438 ]
+1057 silly gunzTarPerm extractEntry deps/tesseract/classify/picofeat.cpp
+1058 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/picofeat.cpp', 420, 438 ]
+1059 silly gunzTarPerm extractEntry deps/tesseract/classify/picofeat.h
+1060 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/picofeat.h', 420, 438 ]
+1061 silly gunzTarPerm extractEntry deps/tesseract/classify/protos.cpp
+1062 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/protos.cpp', 420, 438 ]
+1063 silly gunzTarPerm extractEntry deps/tesseract/classify/protos.h
+1064 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/protos.h', 420, 438 ]
+1065 silly gunzTarPerm extractEntry deps/tesseract/classify/sampleiterator.cpp
+1066 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/sampleiterator.cpp', 420, 438 ]
+1067 silly gunzTarPerm extractEntry deps/tesseract/classify/sampleiterator.h
+1068 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/sampleiterator.h', 420, 438 ]
+1069 silly gunzTarPerm extractEntry deps/tesseract/classify/shapeclassifier.h
+1070 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/shapeclassifier.h', 420, 438 ]
+1071 silly gunzTarPerm extractEntry deps/tesseract/classify/shapetable.cpp
+1072 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/shapetable.cpp', 420, 438 ]
+1073 silly gunzTarPerm extractEntry deps/tesseract/classify/shapetable.h
+1074 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/shapetable.h', 420, 438 ]
+1075 silly gunzTarPerm extractEntry deps/tesseract/classify/speckle.cpp
+1076 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/speckle.cpp', 420, 438 ]
+1077 silly gunzTarPerm extractEntry deps/tesseract/classify/speckle.h
+1078 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/speckle.h', 420, 438 ]
+1079 silly gunzTarPerm extractEntry deps/tesseract/classify/tessclassifier.cpp
+1080 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/tessclassifier.cpp', 420, 438 ]
+1081 silly gunzTarPerm extractEntry deps/tesseract/classify/tessclassifier.h
+1082 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/tessclassifier.h', 420, 438 ]
+1083 silly gunzTarPerm extractEntry deps/tesseract/classify/trainingsample.cpp
+1084 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/trainingsample.cpp', 420, 438 ]
+1085 silly gunzTarPerm extractEntry deps/tesseract/classify/trainingsample.h
+1086 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/trainingsample.h', 420, 438 ]
+1087 silly gunzTarPerm extractEntry deps/tesseract/classify/trainingsampleset.cpp
+1088 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/trainingsampleset.cpp', 420, 438 ]
+1089 silly gunzTarPerm extractEntry deps/tesseract/classify/trainingsampleset.h
+1090 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/trainingsampleset.h', 420, 438 ]
+1091 silly gunzTarPerm extractEntry deps/tesseract/classify/xform2d.cpp
+1092 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/xform2d.cpp', 420, 438 ]
+1093 silly gunzTarPerm extractEntry deps/tesseract/classify/xform2d.h
+1094 silly gunzTarPerm modified mode [ 'deps/tesseract/classify/xform2d.h', 420, 438 ]
+1095 silly gunzTarPerm extractEntry deps/tesseract/COPYING
+1096 silly gunzTarPerm modified mode [ 'deps/tesseract/COPYING', 420, 438 ]
+1097 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_search_object.h
+1098 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_search_object.h', 420, 438 ]
+1099 silly gunzTarPerm extractEntry deps/tesseract/cube/altlist.cpp
+1100 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/altlist.cpp', 420, 438 ]
+1101 silly gunzTarPerm extractEntry deps/tesseract/cube/beam_search.cpp
+1102 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/beam_search.cpp', 420, 438 ]
+1103 silly gunzTarPerm extractEntry deps/tesseract/cube/beam_search.h
+1104 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/beam_search.h', 420, 438 ]
+1105 silly gunzTarPerm extractEntry deps/tesseract/cube/bmp_8.cpp
+1106 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/bmp_8.cpp', 420, 438 ]
+1107 silly gunzTarPerm extractEntry deps/tesseract/cube/bmp_8.h
+1108 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/bmp_8.h', 420, 438 ]
+1109 silly gunzTarPerm extractEntry deps/tesseract/cube/cached_file.cpp
+1110 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cached_file.cpp', 420, 438 ]
+1111 silly gunzTarPerm extractEntry deps/tesseract/cube/cached_file.h
+1112 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cached_file.h', 420, 438 ]
+1113 silly gunzTarPerm extractEntry deps/tesseract/cube/char_altlist.cpp
+1114 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_altlist.cpp', 420, 438 ]
+1115 silly gunzTarPerm extractEntry deps/tesseract/cube/char_altlist.h
+1116 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_altlist.h', 420, 438 ]
+1117 silly gunzTarPerm extractEntry deps/tesseract/cube/char_bigrams.cpp
+1118 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_bigrams.cpp', 420, 438 ]
+1119 silly gunzTarPerm extractEntry deps/tesseract/cube/char_bigrams.h
+1120 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_bigrams.h', 420, 438 ]
+1121 silly gunzTarPerm extractEntry deps/tesseract/cube/char_samp.cpp
+1122 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_samp.cpp', 420, 438 ]
+1123 silly gunzTarPerm extractEntry deps/tesseract/cube/char_samp.h
+1124 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_samp.h', 420, 438 ]
+1125 silly gunzTarPerm extractEntry deps/tesseract/cube/char_samp_enum.cpp
+1126 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_samp_enum.cpp', 420, 438 ]
+1127 silly gunzTarPerm extractEntry deps/tesseract/cube/char_samp_enum.h
+1128 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_samp_enum.h', 420, 438 ]
+1129 silly gunzTarPerm extractEntry deps/tesseract/cube/char_samp_set.cpp
+1130 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_samp_set.cpp', 420, 438 ]
+1131 silly gunzTarPerm extractEntry deps/tesseract/cube/char_samp_set.h
+1132 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_samp_set.h', 420, 438 ]
+1133 silly gunzTarPerm extractEntry deps/tesseract/cube/char_set.cpp
+1134 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_set.cpp', 420, 438 ]
+1135 silly gunzTarPerm extractEntry deps/tesseract/cube/char_set.h
+1136 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/char_set.h', 420, 438 ]
+1137 silly gunzTarPerm extractEntry deps/tesseract/cube/classifier_base.h
+1138 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/classifier_base.h', 420, 438 ]
+1139 silly gunzTarPerm extractEntry deps/tesseract/cube/classifier_factory.cpp
+1140 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/classifier_factory.cpp', 420, 438 ]
+1141 silly gunzTarPerm extractEntry deps/tesseract/cube/classifier_factory.h
+1142 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/classifier_factory.h', 420, 438 ]
+1143 silly gunzTarPerm extractEntry deps/tesseract/cube/con_comp.cpp
+1144 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/con_comp.cpp', 420, 438 ]
+1145 silly gunzTarPerm extractEntry deps/tesseract/cube/con_comp.h
+1146 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/con_comp.h', 420, 438 ]
+1147 silly gunzTarPerm extractEntry deps/tesseract/cube/conv_net_classifier.cpp
+1148 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/conv_net_classifier.cpp', 420, 438 ]
+1149 silly gunzTarPerm extractEntry deps/tesseract/cube/conv_net_classifier.h
+1150 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/conv_net_classifier.h', 420, 438 ]
+1151 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_const.h
+1152 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_const.h', 420, 438 ]
+1153 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_line_object.cpp
+1154 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_line_object.cpp', 420, 438 ]
+1155 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_line_object.h
+1156 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_line_object.h', 420, 438 ]
+1157 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_line_segmenter.cpp
+1158 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_line_segmenter.cpp', 420, 438 ]
+1159 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_line_segmenter.h
+1160 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_line_segmenter.h', 420, 438 ]
+1161 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_object.cpp
+1162 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_object.cpp', 420, 438 ]
+1163 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_object.h
+1164 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_object.h', 420, 438 ]
+1165 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_search_object.cpp
+1166 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_search_object.cpp', 420, 438 ]
+1167 silly gunzTarPerm extractEntry deps/tesseract/cube/altlist.h
+1168 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/altlist.h', 420, 438 ]
+1169 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_tuning_params.cpp
+1170 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_tuning_params.cpp', 420, 438 ]
+1171 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_tuning_params.h
+1172 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_tuning_params.h', 420, 438 ]
+1173 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_utils.cpp
+1174 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_utils.cpp', 420, 438 ]
+1175 silly gunzTarPerm extractEntry deps/tesseract/cube/cube_utils.h
+1176 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/cube_utils.h', 420, 438 ]
+1177 silly gunzTarPerm extractEntry deps/tesseract/cube/feature_base.h
+1178 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/feature_base.h', 420, 438 ]
+1179 silly gunzTarPerm extractEntry deps/tesseract/cube/feature_bmp.cpp
+1180 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/feature_bmp.cpp', 420, 438 ]
+1181 silly gunzTarPerm extractEntry deps/tesseract/cube/feature_bmp.h
+1182 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/feature_bmp.h', 420, 438 ]
+1183 silly gunzTarPerm extractEntry deps/tesseract/cube/feature_chebyshev.cpp
+1184 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/feature_chebyshev.cpp', 420, 438 ]
+1185 silly gunzTarPerm extractEntry deps/tesseract/cube/feature_chebyshev.h
+1186 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/feature_chebyshev.h', 420, 438 ]
+1187 silly gunzTarPerm extractEntry deps/tesseract/cube/feature_hybrid.cpp
+1188 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/feature_hybrid.cpp', 420, 438 ]
+1189 silly gunzTarPerm extractEntry deps/tesseract/cube/feature_hybrid.h
+1190 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/feature_hybrid.h', 420, 438 ]
+1191 silly gunzTarPerm extractEntry deps/tesseract/cube/hybrid_neural_net_classifier.cpp
+1192 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/hybrid_neural_net_classifier.cpp',
+1192 silly gunzTarPerm   420,
+1192 silly gunzTarPerm   438 ]
+1193 silly gunzTarPerm extractEntry deps/tesseract/cube/hybrid_neural_net_classifier.h
+1194 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/hybrid_neural_net_classifier.h',
+1194 silly gunzTarPerm   420,
+1194 silly gunzTarPerm   438 ]
+1195 silly gunzTarPerm extractEntry deps/tesseract/cube/lang_mod_edge.h
+1196 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/lang_mod_edge.h', 420, 438 ]
+1197 silly gunzTarPerm extractEntry deps/tesseract/cube/lang_model.h
+1198 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/lang_model.h', 420, 438 ]
+1199 silly gunzTarPerm extractEntry deps/tesseract/cube/search_column.cpp
+1200 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/search_column.cpp', 420, 438 ]
+1201 silly gunzTarPerm extractEntry deps/tesseract/cube/search_column.h
+1202 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/search_column.h', 420, 438 ]
+1203 silly gunzTarPerm extractEntry deps/tesseract/cube/search_node.cpp
+1204 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/search_node.cpp', 420, 438 ]
+1205 silly gunzTarPerm extractEntry deps/tesseract/cube/search_node.h
+1206 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/search_node.h', 420, 438 ]
+1207 silly gunzTarPerm extractEntry deps/tesseract/cube/search_object.h
+1208 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/search_object.h', 420, 438 ]
+1209 silly gunzTarPerm extractEntry deps/tesseract/cube/string_32.h
+1210 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/string_32.h', 420, 438 ]
+1211 silly gunzTarPerm extractEntry deps/tesseract/cube/tess_lang_mod_edge.cpp
+1212 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/tess_lang_mod_edge.cpp', 420, 438 ]
+1213 silly gunzTarPerm extractEntry deps/tesseract/cube/tess_lang_mod_edge.h
+1214 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/tess_lang_mod_edge.h', 420, 438 ]
+1215 silly gunzTarPerm extractEntry deps/tesseract/cube/tess_lang_model.cpp
+1216 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/tess_lang_model.cpp', 420, 438 ]
+1217 silly gunzTarPerm extractEntry deps/tesseract/cube/tess_lang_model.h
+1218 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/tess_lang_model.h', 420, 438 ]
+1219 silly gunzTarPerm extractEntry deps/tesseract/cube/tuning_params.h
+1220 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/tuning_params.h', 420, 438 ]
+1221 silly gunzTarPerm extractEntry deps/tesseract/cube/word_altlist.cpp
+1222 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/word_altlist.cpp', 420, 438 ]
+1223 silly gunzTarPerm extractEntry deps/tesseract/cube/word_altlist.h
+1224 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/word_altlist.h', 420, 438 ]
+1225 silly gunzTarPerm extractEntry deps/tesseract/cube/word_list_lang_model.cpp
+1226 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/word_list_lang_model.cpp', 420, 438 ]
+1227 silly gunzTarPerm extractEntry deps/tesseract/cube/word_list_lang_model.h
+1228 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/word_list_lang_model.h', 420, 438 ]
+1229 silly gunzTarPerm extractEntry deps/tesseract/cube/word_size_model.cpp
+1230 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/word_size_model.cpp', 420, 438 ]
+1231 silly gunzTarPerm extractEntry deps/tesseract/cube/word_size_model.h
+1232 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/word_size_model.h', 420, 438 ]
+1233 silly gunzTarPerm extractEntry deps/tesseract/cube/word_unigrams.cpp
+1234 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/word_unigrams.cpp', 420, 438 ]
+1235 silly gunzTarPerm extractEntry deps/tesseract/cube/word_unigrams.h
+1236 silly gunzTarPerm modified mode [ 'deps/tesseract/cube/word_unigrams.h', 420, 438 ]
+1237 silly gunzTarPerm extractEntry deps/tesseract/cutil/emalloc.h
+1238 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/emalloc.h', 420, 438 ]
+1239 silly gunzTarPerm extractEntry deps/tesseract/cutil/bitvec.cpp
+1240 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/bitvec.cpp', 420, 438 ]
+1241 silly gunzTarPerm extractEntry deps/tesseract/cutil/callcpp.cpp
+1242 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/callcpp.cpp', 420, 438 ]
+1243 silly gunzTarPerm extractEntry deps/tesseract/cutil/callcpp.h
+1244 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/callcpp.h', 420, 438 ]
+1245 silly gunzTarPerm extractEntry deps/tesseract/cutil/const.h
+1246 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/const.h', 420, 438 ]
+1247 silly gunzTarPerm extractEntry deps/tesseract/cutil/cutil.cpp
+1248 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/cutil.cpp', 420, 438 ]
+1249 silly gunzTarPerm extractEntry deps/tesseract/cutil/cutil.h
+1250 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/cutil.h', 420, 438 ]
+1251 silly gunzTarPerm extractEntry deps/tesseract/cutil/cutil_class.cpp
+1252 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/cutil_class.cpp', 420, 438 ]
+1253 silly gunzTarPerm extractEntry deps/tesseract/cutil/cutil_class.h
+1254 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/cutil_class.h', 420, 438 ]
+1255 silly gunzTarPerm extractEntry deps/tesseract/cutil/danerror.cpp
+1256 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/danerror.cpp', 420, 438 ]
+1257 silly gunzTarPerm extractEntry deps/tesseract/cutil/danerror.h
+1258 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/danerror.h', 420, 438 ]
+1259 silly gunzTarPerm extractEntry deps/tesseract/cutil/efio.cpp
+1260 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/efio.cpp', 420, 438 ]
+1261 silly gunzTarPerm extractEntry deps/tesseract/cutil/efio.h
+1262 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/efio.h', 420, 438 ]
+1263 silly gunzTarPerm extractEntry deps/tesseract/cutil/emalloc.cpp
+1264 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/emalloc.cpp', 420, 438 ]
+1265 silly gunzTarPerm extractEntry deps/tesseract/cutil/bitvec.h
+1266 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/bitvec.h', 420, 438 ]
+1267 silly gunzTarPerm extractEntry deps/tesseract/cutil/freelist.cpp
+1268 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/freelist.cpp', 420, 438 ]
+1269 silly gunzTarPerm extractEntry deps/tesseract/cutil/freelist.h
+1270 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/freelist.h', 420, 438 ]
+1271 silly gunzTarPerm extractEntry deps/tesseract/cutil/globals.h
+1272 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/globals.h', 420, 438 ]
+1273 silly gunzTarPerm extractEntry deps/tesseract/cutil/listio.cpp
+1274 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/listio.cpp', 420, 438 ]
+1275 silly gunzTarPerm extractEntry deps/tesseract/cutil/listio.h
+1276 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/listio.h', 420, 438 ]
+1277 silly gunzTarPerm extractEntry deps/tesseract/cutil/oldheap.cpp
+1278 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/oldheap.cpp', 420, 438 ]
+1279 silly gunzTarPerm extractEntry deps/tesseract/cutil/oldheap.h
+1280 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/oldheap.h', 420, 438 ]
+1281 silly gunzTarPerm extractEntry deps/tesseract/cutil/oldlist.cpp
+1282 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/oldlist.cpp', 420, 438 ]
+1283 silly gunzTarPerm extractEntry deps/tesseract/cutil/oldlist.h
+1284 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/oldlist.h', 420, 438 ]
+1285 silly gunzTarPerm extractEntry deps/tesseract/cutil/structures.cpp
+1286 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/structures.cpp', 420, 438 ]
+1287 silly gunzTarPerm extractEntry deps/tesseract/cutil/structures.h
+1288 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/structures.h', 420, 438 ]
+1289 silly gunzTarPerm extractEntry deps/tesseract/cutil/tessarray.cpp
+1290 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/tessarray.cpp', 420, 438 ]
+1291 silly gunzTarPerm extractEntry deps/tesseract/cutil/tessarray.h
+1292 silly gunzTarPerm modified mode [ 'deps/tesseract/cutil/tessarray.h', 420, 438 ]
+1293 silly gunzTarPerm extractEntry deps/tesseract/ccmain/paragraphs.h
+1294 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/paragraphs.h', 420, 438 ]
+1295 silly gunzTarPerm extractEntry deps/tesseract/ccmain/adaptions.cpp
+1296 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/adaptions.cpp', 420, 438 ]
+1297 silly gunzTarPerm extractEntry deps/tesseract/ccmain/control.cpp
+1298 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/control.cpp', 420, 438 ]
+1299 silly gunzTarPerm extractEntry deps/tesseract/ccmain/control.h
+1300 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/control.h', 420, 438 ]
+1301 silly gunzTarPerm extractEntry deps/tesseract/ccmain/cube_control.cpp
+1302 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/cube_control.cpp', 420, 438 ]
+1303 silly gunzTarPerm extractEntry deps/tesseract/ccmain/cube_reco_context.cpp
+1304 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/cube_reco_context.cpp', 420, 438 ]
+1305 silly gunzTarPerm extractEntry deps/tesseract/ccmain/cube_reco_context.h
+1306 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/cube_reco_context.h', 420, 438 ]
+1307 silly gunzTarPerm extractEntry deps/tesseract/ccmain/cubeclassifier.cpp
+1308 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/cubeclassifier.cpp', 420, 438 ]
+1309 silly gunzTarPerm extractEntry deps/tesseract/ccmain/cubeclassifier.h
+1310 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/cubeclassifier.h', 420, 438 ]
+1311 silly gunzTarPerm extractEntry deps/tesseract/ccmain/docqual.cpp
+1312 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/docqual.cpp', 420, 438 ]
+1313 silly gunzTarPerm extractEntry deps/tesseract/ccmain/docqual.h
+1314 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/docqual.h', 420, 438 ]
+1315 silly gunzTarPerm extractEntry deps/tesseract/ccmain/equationdetect.cpp
+1316 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/equationdetect.cpp', 420, 438 ]
+1317 silly gunzTarPerm extractEntry deps/tesseract/ccmain/equationdetect.h
+1318 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/equationdetect.h', 420, 438 ]
+1319 silly gunzTarPerm extractEntry deps/tesseract/ccmain/fixspace.cpp
+1320 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/fixspace.cpp', 420, 438 ]
+1321 silly gunzTarPerm extractEntry deps/tesseract/ccmain/fixspace.h
+1322 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/fixspace.h', 420, 438 ]
+1323 silly gunzTarPerm extractEntry deps/tesseract/ccmain/fixxht.cpp
+1324 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/fixxht.cpp', 420, 438 ]
+1325 silly gunzTarPerm extractEntry deps/tesseract/ccmain/imgscale.cpp
+1326 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/imgscale.cpp', 420, 438 ]
+1327 silly gunzTarPerm extractEntry deps/tesseract/ccmain/imgscale.h
+1328 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/imgscale.h', 420, 438 ]
+1329 silly gunzTarPerm extractEntry deps/tesseract/ccmain/ltrresultiterator.cpp
+1330 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/ltrresultiterator.cpp', 420, 438 ]
+1331 silly gunzTarPerm extractEntry deps/tesseract/ccmain/ltrresultiterator.h
+1332 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/ltrresultiterator.h', 420, 438 ]
+1333 silly gunzTarPerm extractEntry deps/tesseract/ccmain/mutableiterator.h
+1334 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/mutableiterator.h', 420, 438 ]
+1335 silly gunzTarPerm extractEntry deps/tesseract/ccmain/osdetect.cpp
+1336 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/osdetect.cpp', 420, 438 ]
+1337 silly gunzTarPerm extractEntry deps/tesseract/ccmain/osdetect.h
+1338 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/osdetect.h', 420, 438 ]
+1339 silly gunzTarPerm extractEntry deps/tesseract/ccmain/output.cpp
+1340 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/output.cpp', 420, 438 ]
+1341 silly gunzTarPerm extractEntry deps/tesseract/ccmain/output.h
+1342 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/output.h', 420, 438 ]
+1343 silly gunzTarPerm extractEntry deps/tesseract/ccmain/pageiterator.cpp
+1344 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/pageiterator.cpp', 420, 438 ]
+1345 silly gunzTarPerm extractEntry deps/tesseract/ccmain/pageiterator.h
+1346 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/pageiterator.h', 420, 438 ]
+1347 silly gunzTarPerm extractEntry deps/tesseract/ccmain/pagesegmain.cpp
+1348 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/pagesegmain.cpp', 420, 438 ]
+1349 silly gunzTarPerm extractEntry deps/tesseract/ccmain/pagewalk.cpp
+1350 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/pagewalk.cpp', 420, 438 ]
+1351 silly gunzTarPerm extractEntry deps/tesseract/ccmain/paragraphs.cpp
+1352 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/paragraphs.cpp', 420, 438 ]
+1353 silly gunzTarPerm extractEntry deps/tesseract/ccmain/applybox.cpp
+1354 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/applybox.cpp', 420, 438 ]
+1355 silly gunzTarPerm extractEntry deps/tesseract/ccmain/paragraphs_internal.h
+1356 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/paragraphs_internal.h', 420, 438 ]
+1357 silly gunzTarPerm extractEntry deps/tesseract/ccmain/paramsd.cpp
+1358 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/paramsd.cpp', 420, 438 ]
+1359 silly gunzTarPerm extractEntry deps/tesseract/ccmain/paramsd.h
+1360 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/paramsd.h', 420, 438 ]
+1361 silly gunzTarPerm extractEntry deps/tesseract/ccmain/pgedit.cpp
+1362 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/pgedit.cpp', 420, 438 ]
+1363 silly gunzTarPerm extractEntry deps/tesseract/ccmain/pgedit.h
+1364 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/pgedit.h', 420, 438 ]
+1365 silly gunzTarPerm extractEntry deps/tesseract/ccmain/recogtraining.cpp
+1366 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/recogtraining.cpp', 420, 438 ]
+1367 silly gunzTarPerm extractEntry deps/tesseract/ccmain/reject.cpp
+1368 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/reject.cpp', 420, 438 ]
+1369 silly gunzTarPerm extractEntry deps/tesseract/ccmain/reject.h
+1370 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/reject.h', 420, 438 ]
+1371 silly gunzTarPerm extractEntry deps/tesseract/ccmain/resultiterator.cpp
+1372 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/resultiterator.cpp', 420, 438 ]
+1373 silly gunzTarPerm extractEntry deps/tesseract/ccmain/resultiterator.h
+1374 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/resultiterator.h', 420, 438 ]
+1375 silly gunzTarPerm extractEntry deps/tesseract/ccmain/scaleimg.cpp
+1376 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/scaleimg.cpp', 420, 438 ]
+1377 silly gunzTarPerm extractEntry deps/tesseract/ccmain/scaleimg.h
+1378 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/scaleimg.h', 420, 438 ]
+1379 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tessbox.cpp
+1380 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tessbox.cpp', 420, 438 ]
+1381 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tessbox.h
+1382 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tessbox.h', 420, 438 ]
+1383 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tessedit.cpp
+1384 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tessedit.cpp', 420, 438 ]
+1385 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tessedit.h
+1386 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tessedit.h', 420, 438 ]
+1387 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tesseract_cube_combiner.cpp
+1388 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tesseract_cube_combiner.cpp', 420, 438 ]
+1389 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tesseract_cube_combiner.h
+1390 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tesseract_cube_combiner.h', 420, 438 ]
+1391 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tesseractclass.cpp
+1392 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tesseractclass.cpp', 420, 438 ]
+1393 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tesseractclass.h
+1394 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tesseractclass.h', 420, 438 ]
+1395 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tessvars.cpp
+1396 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tessvars.cpp', 420, 438 ]
+1397 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tessvars.h
+1398 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tessvars.h', 420, 438 ]
+1399 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tfacep.h
+1400 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tfacep.h', 420, 438 ]
+1401 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tfacepp.cpp
+1402 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tfacepp.cpp', 420, 438 ]
+1403 silly gunzTarPerm extractEntry deps/tesseract/ccmain/tfacepp.h
+1404 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/tfacepp.h', 420, 438 ]
+1405 silly gunzTarPerm extractEntry deps/tesseract/ccmain/thresholder.cpp
+1406 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/thresholder.cpp', 420, 438 ]
+1407 silly gunzTarPerm extractEntry deps/tesseract/ccmain/thresholder.h
+1408 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/thresholder.h', 420, 438 ]
+1409 silly gunzTarPerm extractEntry deps/tesseract/ccmain/werdit.cpp
+1410 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/werdit.cpp', 420, 438 ]
+1411 silly gunzTarPerm extractEntry deps/tesseract/ccmain/werdit.h
+1412 silly gunzTarPerm modified mode [ 'deps/tesseract/ccmain/werdit.h', 420, 438 ]
+1413 silly gunzTarPerm extractEntry deps/tesseract/image/imgs.h
+1414 silly gunzTarPerm modified mode [ 'deps/tesseract/image/imgs.h', 420, 438 ]
+1415 silly gunzTarPerm extractEntry deps/tesseract/image/image.cpp
+1416 silly gunzTarPerm modified mode [ 'deps/tesseract/image/image.cpp', 420, 438 ]
+1417 silly gunzTarPerm extractEntry deps/tesseract/image/img.h
+1418 silly gunzTarPerm modified mode [ 'deps/tesseract/image/img.h', 420, 438 ]
+1419 silly gunzTarPerm extractEntry deps/tesseract/image/imgerrs.h
+1420 silly gunzTarPerm modified mode [ 'deps/tesseract/image/imgerrs.h', 420, 438 ]
+1421 silly gunzTarPerm extractEntry deps/tesseract/image/imgs.cpp
+1422 silly gunzTarPerm modified mode [ 'deps/tesseract/image/imgs.cpp', 420, 438 ]
+1423 silly gunzTarPerm extractEntry deps/tesseract/image/image.h
+1424 silly gunzTarPerm modified mode [ 'deps/tesseract/image/image.h', 420, 438 ]
+1425 silly gunzTarPerm extractEntry deps/tesseract/image/imgtiff.cpp
+1426 silly gunzTarPerm modified mode [ 'deps/tesseract/image/imgtiff.cpp', 420, 438 ]
+1427 silly gunzTarPerm extractEntry deps/tesseract/image/imgtiff.h
+1428 silly gunzTarPerm modified mode [ 'deps/tesseract/image/imgtiff.h', 420, 438 ]
+1429 silly gunzTarPerm extractEntry deps/tesseract/image/imgunpk.h
+1430 silly gunzTarPerm modified mode [ 'deps/tesseract/image/imgunpk.h', 420, 438 ]
+1431 silly gunzTarPerm extractEntry deps/tesseract/image/svshowim.cpp
+1432 silly gunzTarPerm modified mode [ 'deps/tesseract/image/svshowim.cpp', 420, 438 ]
+1433 silly gunzTarPerm extractEntry deps/tesseract/image/svshowim.h
+1434 silly gunzTarPerm modified mode [ 'deps/tesseract/image/svshowim.h', 420, 438 ]
+1435 silly gunzTarPerm extractEntry deps/tesseract/neural_networks/runtime/input_file_buffer.cpp
+1436 silly gunzTarPerm modified mode [ 'deps/tesseract/neural_networks/runtime/input_file_buffer.cpp',
+1436 silly gunzTarPerm   420,
+1436 silly gunzTarPerm   438 ]
+1437 silly gunzTarPerm extractEntry deps/tesseract/neural_networks/runtime/input_file_buffer.h
+1438 silly gunzTarPerm modified mode [ 'deps/tesseract/neural_networks/runtime/input_file_buffer.h',
+1438 silly gunzTarPerm   420,
+1438 silly gunzTarPerm   438 ]
+1439 silly gunzTarPerm extractEntry deps/tesseract/neural_networks/runtime/neural_net.cpp
+1440 silly gunzTarPerm modified mode [ 'deps/tesseract/neural_networks/runtime/neural_net.cpp',
+1440 silly gunzTarPerm   420,
+1440 silly gunzTarPerm   438 ]
+1441 silly gunzTarPerm extractEntry deps/tesseract/neural_networks/runtime/neural_net.h
+1442 silly gunzTarPerm modified mode [ 'deps/tesseract/neural_networks/runtime/neural_net.h',
+1442 silly gunzTarPerm   420,
+1442 silly gunzTarPerm   438 ]
+1443 silly gunzTarPerm extractEntry deps/tesseract/neural_networks/runtime/neuron.cpp
+1444 silly gunzTarPerm modified mode [ 'deps/tesseract/neural_networks/runtime/neuron.cpp', 420, 438 ]
+1445 silly gunzTarPerm extractEntry deps/tesseract/neural_networks/runtime/neuron.h
+1446 silly gunzTarPerm modified mode [ 'deps/tesseract/neural_networks/runtime/neuron.h', 420, 438 ]
+1447 silly gunzTarPerm extractEntry deps/tesseract/neural_networks/runtime/sigmoid_table.cpp
+1448 silly gunzTarPerm modified mode [ 'deps/tesseract/neural_networks/runtime/sigmoid_table.cpp',
+1448 silly gunzTarPerm   420,
+1448 silly gunzTarPerm   438 ]
+1449 silly gunzTarPerm extractEntry deps/tesseract/port/gettimeofday.cpp
+1450 silly gunzTarPerm modified mode [ 'deps/tesseract/port/gettimeofday.cpp', 420, 438 ]
+1451 silly gunzTarPerm extractEntry deps/tesseract/port/gettimeofday.h
+1452 silly gunzTarPerm modified mode [ 'deps/tesseract/port/gettimeofday.h', 420, 438 ]
+1453 silly gunzTarPerm extractEntry deps/tesseract/port/mathfix.h
+1454 silly gunzTarPerm modified mode [ 'deps/tesseract/port/mathfix.h', 420, 438 ]
+1455 silly gunzTarPerm extractEntry deps/tesseract/port/strtok_r.cpp
+1456 silly gunzTarPerm modified mode [ 'deps/tesseract/port/strtok_r.cpp', 420, 438 ]
+1457 silly gunzTarPerm extractEntry deps/tesseract/port/strtok_r.h
+1458 silly gunzTarPerm modified mode [ 'deps/tesseract/port/strtok_r.h', 420, 438 ]
+1459 silly gunzTarPerm extractEntry deps/tesseract/tesseract.gyp
+1460 silly gunzTarPerm modified mode [ 'deps/tesseract/tesseract.gyp', 420, 438 ]
+1461 silly gunzTarPerm extractEntry deps/tesseract/textord/linefind.h
+1462 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/linefind.h', 420, 438 ]
+1463 silly gunzTarPerm extractEntry deps/tesseract/textord/alignedblob.cpp
+1464 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/alignedblob.cpp', 420, 438 ]
+1465 silly gunzTarPerm extractEntry deps/tesseract/textord/bbgrid.cpp
+1466 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/bbgrid.cpp', 420, 438 ]
+1467 silly gunzTarPerm extractEntry deps/tesseract/textord/bbgrid.h
+1468 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/bbgrid.h', 420, 438 ]
+1469 silly gunzTarPerm extractEntry deps/tesseract/textord/blkocc.cpp
+1470 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/blkocc.cpp', 420, 438 ]
+1471 silly gunzTarPerm extractEntry deps/tesseract/textord/blkocc.h
+1472 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/blkocc.h', 420, 438 ]
+1473 silly gunzTarPerm extractEntry deps/tesseract/textord/blobgrid.cpp
+1474 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/blobgrid.cpp', 420, 438 ]
+1475 silly gunzTarPerm extractEntry deps/tesseract/textord/blobgrid.h
+1476 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/blobgrid.h', 420, 438 ]
+1477 silly gunzTarPerm extractEntry deps/tesseract/textord/ccnontextdetect.cpp
+1478 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/ccnontextdetect.cpp', 420, 438 ]
+1479 silly gunzTarPerm extractEntry deps/tesseract/textord/ccnontextdetect.h
+1480 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/ccnontextdetect.h', 420, 438 ]
+1481 silly gunzTarPerm extractEntry deps/tesseract/textord/cjkpitch.cpp
+1482 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/cjkpitch.cpp', 420, 438 ]
+1483 silly gunzTarPerm extractEntry deps/tesseract/textord/cjkpitch.h
+1484 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/cjkpitch.h', 420, 438 ]
+1485 silly gunzTarPerm extractEntry deps/tesseract/textord/colfind.cpp
+1486 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/colfind.cpp', 420, 438 ]
+1487 silly gunzTarPerm extractEntry deps/tesseract/textord/colfind.h
+1488 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/colfind.h', 420, 438 ]
+1489 silly gunzTarPerm extractEntry deps/tesseract/textord/colpartition.cpp
+1490 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/colpartition.cpp', 420, 438 ]
+1491 silly gunzTarPerm extractEntry deps/tesseract/textord/colpartition.h
+1492 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/colpartition.h', 420, 438 ]
+1493 silly gunzTarPerm extractEntry deps/tesseract/textord/colpartitiongrid.cpp
+1494 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/colpartitiongrid.cpp', 420, 438 ]
+1495 silly gunzTarPerm extractEntry deps/tesseract/textord/colpartitiongrid.h
+1496 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/colpartitiongrid.h', 420, 438 ]
+1497 silly gunzTarPerm extractEntry deps/tesseract/textord/colpartitionset.cpp
+1498 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/colpartitionset.cpp', 420, 438 ]
+1499 silly gunzTarPerm extractEntry deps/tesseract/textord/colpartitionset.h
+1500 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/colpartitionset.h', 420, 438 ]
+1501 silly gunzTarPerm extractEntry deps/tesseract/textord/devanagari_processing.cpp
+1502 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/devanagari_processing.cpp', 420, 438 ]
+1503 silly gunzTarPerm extractEntry deps/tesseract/textord/devanagari_processing.h
+1504 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/devanagari_processing.h', 420, 438 ]
+1505 silly gunzTarPerm extractEntry deps/tesseract/textord/drawedg.cpp
+1506 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/drawedg.cpp', 420, 438 ]
+1507 silly gunzTarPerm extractEntry deps/tesseract/textord/drawedg.h
+1508 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/drawedg.h', 420, 438 ]
+1509 silly gunzTarPerm extractEntry deps/tesseract/textord/drawtord.cpp
+1510 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/drawtord.cpp', 420, 438 ]
+1511 silly gunzTarPerm extractEntry deps/tesseract/textord/drawtord.h
+1512 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/drawtord.h', 420, 438 ]
+1513 silly gunzTarPerm extractEntry deps/tesseract/textord/edgblob.cpp
+1514 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/edgblob.cpp', 420, 438 ]
+1515 silly gunzTarPerm extractEntry deps/tesseract/textord/edgblob.h
+1516 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/edgblob.h', 420, 438 ]
+1517 silly gunzTarPerm extractEntry deps/tesseract/textord/edgloop.cpp
+1518 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/edgloop.cpp', 420, 438 ]
+1519 silly gunzTarPerm extractEntry deps/tesseract/textord/edgloop.h
+1520 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/edgloop.h', 420, 438 ]
+1521 silly gunzTarPerm extractEntry deps/tesseract/textord/equationdetectbase.cpp
+1522 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/equationdetectbase.cpp', 420, 438 ]
+1523 silly gunzTarPerm extractEntry deps/tesseract/textord/equationdetectbase.h
+1524 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/equationdetectbase.h', 420, 438 ]
+1525 silly gunzTarPerm extractEntry deps/tesseract/textord/fpchop.cpp
+1526 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/fpchop.cpp', 420, 438 ]
+1527 silly gunzTarPerm extractEntry deps/tesseract/textord/fpchop.h
+1528 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/fpchop.h', 420, 438 ]
+1529 silly gunzTarPerm extractEntry deps/tesseract/textord/gap_map.cpp
+1530 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/gap_map.cpp', 420, 438 ]
+1531 silly gunzTarPerm extractEntry deps/tesseract/textord/gap_map.h
+1532 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/gap_map.h', 420, 438 ]
+1533 silly gunzTarPerm extractEntry deps/tesseract/textord/imagefind.cpp
+1534 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/imagefind.cpp', 420, 438 ]
+1535 silly gunzTarPerm extractEntry deps/tesseract/textord/imagefind.h
+1536 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/imagefind.h', 420, 438 ]
+1537 silly gunzTarPerm extractEntry deps/tesseract/textord/linefind.cpp
+1538 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/linefind.cpp', 420, 438 ]
+1539 silly gunzTarPerm extractEntry deps/tesseract/textord/alignedblob.h
+1540 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/alignedblob.h', 420, 438 ]
+1541 silly gunzTarPerm extractEntry deps/tesseract/textord/makerow.cpp
+1542 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/makerow.cpp', 420, 438 ]
+1543 silly gunzTarPerm extractEntry deps/tesseract/textord/makerow.h
+1544 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/makerow.h', 420, 438 ]
+1545 silly gunzTarPerm extractEntry deps/tesseract/textord/oldbasel.cpp
+1546 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/oldbasel.cpp', 420, 438 ]
+1547 silly gunzTarPerm extractEntry deps/tesseract/textord/oldbasel.h
+1548 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/oldbasel.h', 420, 438 ]
+1549 silly gunzTarPerm extractEntry deps/tesseract/textord/pithsync.cpp
+1550 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/pithsync.cpp', 420, 438 ]
+1551 silly gunzTarPerm extractEntry deps/tesseract/textord/pithsync.h
+1552 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/pithsync.h', 420, 438 ]
+1553 silly gunzTarPerm extractEntry deps/tesseract/textord/pitsync1.cpp
+1554 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/pitsync1.cpp', 420, 438 ]
+1555 silly gunzTarPerm extractEntry deps/tesseract/textord/pitsync1.h
+1556 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/pitsync1.h', 420, 438 ]
+1557 silly gunzTarPerm extractEntry deps/tesseract/textord/scanedg.cpp
+1558 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/scanedg.cpp', 420, 438 ]
+1559 silly gunzTarPerm extractEntry deps/tesseract/textord/scanedg.h
+1560 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/scanedg.h', 420, 438 ]
+1561 silly gunzTarPerm extractEntry deps/tesseract/textord/sortflts.cpp
+1562 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/sortflts.cpp', 420, 438 ]
+1563 silly gunzTarPerm extractEntry deps/tesseract/textord/sortflts.h
+1564 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/sortflts.h', 420, 438 ]
+1565 silly gunzTarPerm extractEntry deps/tesseract/textord/strokewidth.cpp
+1566 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/strokewidth.cpp', 420, 438 ]
+1567 silly gunzTarPerm extractEntry deps/tesseract/textord/strokewidth.h
+1568 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/strokewidth.h', 420, 438 ]
+1569 silly gunzTarPerm extractEntry deps/tesseract/textord/tabfind.cpp
+1570 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tabfind.cpp', 420, 438 ]
+1571 silly gunzTarPerm extractEntry deps/tesseract/textord/tabfind.h
+1572 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tabfind.h', 420, 438 ]
+1573 silly gunzTarPerm extractEntry deps/tesseract/textord/tablefind.cpp
+1574 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tablefind.cpp', 420, 438 ]
+1575 silly gunzTarPerm extractEntry deps/tesseract/textord/tablefind.h
+1576 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tablefind.h', 420, 438 ]
+1577 silly gunzTarPerm extractEntry deps/tesseract/textord/tablerecog.cpp
+1578 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tablerecog.cpp', 420, 438 ]
+1579 silly gunzTarPerm extractEntry deps/tesseract/textord/tablerecog.h
+1580 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tablerecog.h', 420, 438 ]
+1581 silly gunzTarPerm extractEntry deps/tesseract/textord/tabvector.cpp
+1582 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tabvector.cpp', 420, 438 ]
+1583 silly gunzTarPerm extractEntry deps/tesseract/textord/tabvector.h
+1584 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tabvector.h', 420, 438 ]
+1585 silly gunzTarPerm extractEntry deps/tesseract/textord/textlineprojection.cpp
+1586 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/textlineprojection.cpp', 420, 438 ]
+1587 silly gunzTarPerm extractEntry deps/tesseract/textord/textlineprojection.h
+1588 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/textlineprojection.h', 420, 438 ]
+1589 silly gunzTarPerm extractEntry deps/tesseract/textord/textord.cpp
+1590 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/textord.cpp', 420, 438 ]
+1591 silly gunzTarPerm extractEntry deps/tesseract/textord/textord.h
+1592 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/textord.h', 420, 438 ]
+1593 silly gunzTarPerm extractEntry deps/tesseract/textord/topitch.cpp
+1594 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/topitch.cpp', 420, 438 ]
+1595 silly gunzTarPerm extractEntry deps/tesseract/textord/topitch.h
+1596 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/topitch.h', 420, 438 ]
+1597 silly gunzTarPerm extractEntry deps/tesseract/textord/tordmain.cpp
+1598 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tordmain.cpp', 420, 438 ]
+1599 silly gunzTarPerm extractEntry deps/tesseract/textord/tordmain.h
+1600 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tordmain.h', 420, 438 ]
+1601 silly gunzTarPerm extractEntry deps/tesseract/textord/tospace.cpp
+1602 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tospace.cpp', 420, 438 ]
+1603 silly gunzTarPerm extractEntry deps/tesseract/textord/tovars.cpp
+1604 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tovars.cpp', 420, 438 ]
+1605 silly gunzTarPerm extractEntry deps/tesseract/textord/tovars.h
+1606 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/tovars.h', 420, 438 ]
+1607 silly gunzTarPerm extractEntry deps/tesseract/textord/underlin.cpp
+1608 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/underlin.cpp', 420, 438 ]
+1609 silly gunzTarPerm extractEntry deps/tesseract/textord/underlin.h
+1610 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/underlin.h', 420, 438 ]
+1611 silly gunzTarPerm extractEntry deps/tesseract/textord/wordseg.cpp
+1612 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/wordseg.cpp', 420, 438 ]
+1613 silly gunzTarPerm extractEntry deps/tesseract/textord/wordseg.h
+1614 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/wordseg.h', 420, 438 ]
+1615 silly gunzTarPerm extractEntry deps/tesseract/textord/workingpartset.cpp
+1616 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/workingpartset.cpp', 420, 438 ]
+1617 silly gunzTarPerm extractEntry deps/tesseract/textord/workingpartset.h
+1618 silly gunzTarPerm modified mode [ 'deps/tesseract/textord/workingpartset.h', 420, 438 ]
+1619 silly gunzTarPerm extractEntry deps/tesseract/viewer/scrollview.cpp
+1620 silly gunzTarPerm modified mode [ 'deps/tesseract/viewer/scrollview.cpp', 420, 438 ]
+1621 silly gunzTarPerm extractEntry deps/tesseract/viewer/scrollview.h
+1622 silly gunzTarPerm modified mode [ 'deps/tesseract/viewer/scrollview.h', 420, 438 ]
+1623 silly gunzTarPerm extractEntry deps/tesseract/viewer/svmnode.cpp
+1624 silly gunzTarPerm modified mode [ 'deps/tesseract/viewer/svmnode.cpp', 420, 438 ]
+1625 silly gunzTarPerm extractEntry deps/tesseract/viewer/svmnode.h
+1626 silly gunzTarPerm modified mode [ 'deps/tesseract/viewer/svmnode.h', 420, 438 ]
+1627 silly gunzTarPerm extractEntry deps/tesseract/viewer/svpaint.cpp
+1628 silly gunzTarPerm modified mode [ 'deps/tesseract/viewer/svpaint.cpp', 420, 438 ]
+1629 silly gunzTarPerm extractEntry deps/tesseract/viewer/svutil.cpp
+1630 silly gunzTarPerm modified mode [ 'deps/tesseract/viewer/svutil.cpp', 420, 438 ]
+1631 silly gunzTarPerm extractEntry deps/tesseract/viewer/svutil.h
+1632 silly gunzTarPerm modified mode [ 'deps/tesseract/viewer/svutil.h', 420, 438 ]
+1633 silly gunzTarPerm extractEntry deps/tesseract/wordrec/makechop.h
+1634 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/makechop.h', 420, 438 ]
+1635 silly gunzTarPerm extractEntry deps/tesseract/wordrec/associate.cpp
+1636 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/associate.cpp', 420, 438 ]
+1637 silly gunzTarPerm extractEntry deps/tesseract/wordrec/bestfirst.cpp
+1638 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/bestfirst.cpp', 420, 438 ]
+1639 silly gunzTarPerm extractEntry deps/tesseract/wordrec/bestfirst.h
+1640 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/bestfirst.h', 420, 438 ]
+1641 silly gunzTarPerm extractEntry deps/tesseract/wordrec/chop.cpp
+1642 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/chop.cpp', 420, 438 ]
+1643 silly gunzTarPerm extractEntry deps/tesseract/wordrec/chop.h
+1644 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/chop.h', 420, 438 ]
+1645 silly gunzTarPerm extractEntry deps/tesseract/wordrec/chopper.cpp
+1646 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/chopper.cpp', 420, 438 ]
+1647 silly gunzTarPerm extractEntry deps/tesseract/wordrec/chopper.h
+1648 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/chopper.h', 420, 438 ]
+1649 silly gunzTarPerm extractEntry deps/tesseract/wordrec/closed.cpp
+1650 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/closed.cpp', 420, 438 ]
+1651 silly gunzTarPerm extractEntry deps/tesseract/wordrec/closed.h
+1652 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/closed.h', 420, 438 ]
+1653 silly gunzTarPerm extractEntry deps/tesseract/wordrec/drawfx.cpp
+1654 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/drawfx.cpp', 420, 438 ]
+1655 silly gunzTarPerm extractEntry deps/tesseract/wordrec/drawfx.h
+1656 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/drawfx.h', 420, 438 ]
+1657 silly gunzTarPerm extractEntry deps/tesseract/wordrec/findseam.cpp
+1658 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/findseam.cpp', 420, 438 ]
+1659 silly gunzTarPerm extractEntry deps/tesseract/wordrec/findseam.h
+1660 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/findseam.h', 420, 438 ]
+1661 silly gunzTarPerm extractEntry deps/tesseract/wordrec/gradechop.cpp
+1662 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/gradechop.cpp', 420, 438 ]
+1663 silly gunzTarPerm extractEntry deps/tesseract/wordrec/gradechop.h
+1664 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/gradechop.h', 420, 438 ]
+1665 silly gunzTarPerm extractEntry deps/tesseract/wordrec/heuristic.cpp
+1666 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/heuristic.cpp', 420, 438 ]
+1667 silly gunzTarPerm extractEntry deps/tesseract/wordrec/language_model.cpp
+1668 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/language_model.cpp', 420, 438 ]
+1669 silly gunzTarPerm extractEntry deps/tesseract/wordrec/language_model.h
+1670 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/language_model.h', 420, 438 ]
+1671 silly gunzTarPerm extractEntry deps/tesseract/wordrec/makechop.cpp
+1672 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/makechop.cpp', 420, 438 ]
+1673 silly gunzTarPerm extractEntry deps/tesseract/wordrec/associate.h
+1674 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/associate.h', 420, 438 ]
+1675 silly gunzTarPerm extractEntry deps/tesseract/wordrec/matchtab.cpp
+1676 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/matchtab.cpp', 420, 438 ]
+1677 silly gunzTarPerm extractEntry deps/tesseract/wordrec/matchtab.h
+1678 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/matchtab.h', 420, 438 ]
+1679 silly gunzTarPerm extractEntry deps/tesseract/wordrec/measure.h
+1680 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/measure.h', 420, 438 ]
+1681 silly gunzTarPerm extractEntry deps/tesseract/wordrec/olutil.cpp
+1682 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/olutil.cpp', 420, 438 ]
+1683 silly gunzTarPerm extractEntry deps/tesseract/wordrec/olutil.h
+1684 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/olutil.h', 420, 438 ]
+1685 silly gunzTarPerm extractEntry deps/tesseract/wordrec/outlines.cpp
+1686 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/outlines.cpp', 420, 438 ]
+1687 silly gunzTarPerm extractEntry deps/tesseract/wordrec/outlines.h
+1688 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/outlines.h', 420, 438 ]
+1689 silly gunzTarPerm extractEntry deps/tesseract/wordrec/pieces.cpp
+1690 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/pieces.cpp', 420, 438 ]
+1691 silly gunzTarPerm extractEntry deps/tesseract/wordrec/plotedges.cpp
+1692 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/plotedges.cpp', 420, 438 ]
+1693 silly gunzTarPerm extractEntry deps/tesseract/wordrec/plotedges.h
+1694 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/plotedges.h', 420, 438 ]
+1695 silly gunzTarPerm extractEntry deps/tesseract/wordrec/plotseg.cpp
+1696 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/plotseg.cpp', 420, 438 ]
+1697 silly gunzTarPerm extractEntry deps/tesseract/wordrec/plotseg.h
+1698 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/plotseg.h', 420, 438 ]
+1699 silly gunzTarPerm extractEntry deps/tesseract/wordrec/render.cpp
+1700 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/render.cpp', 420, 438 ]
+1701 silly gunzTarPerm extractEntry deps/tesseract/wordrec/render.h
+1702 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/render.h', 420, 438 ]
+1703 silly gunzTarPerm extractEntry deps/tesseract/wordrec/segsearch.cpp
+1704 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/segsearch.cpp', 420, 438 ]
+1705 silly gunzTarPerm extractEntry deps/tesseract/wordrec/tface.cpp
+1706 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/tface.cpp', 420, 438 ]
+1707 silly gunzTarPerm extractEntry deps/tesseract/wordrec/wordclass.cpp
+1708 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/wordclass.cpp', 420, 438 ]
+1709 silly gunzTarPerm extractEntry deps/tesseract/wordrec/wordclass.h
+1710 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/wordclass.h', 420, 438 ]
+1711 silly gunzTarPerm extractEntry deps/tesseract/wordrec/wordrec.cpp
+1712 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/wordrec.cpp', 420, 438 ]
+1713 silly gunzTarPerm extractEntry deps/tesseract/wordrec/wordrec.h
+1714 silly gunzTarPerm modified mode [ 'deps/tesseract/wordrec/wordrec.h', 420, 438 ]
+1715 silly gunzTarPerm extractEntry lib/tesseract.js
+1716 silly gunzTarPerm modified mode [ 'lib/tesseract.js', 420, 438 ]
+1717 silly gunzTarPerm extractEntry src/module.cc
+1718 silly gunzTarPerm modified mode [ 'src/module.cc', 420, 438 ]
+1719 silly gunzTarPerm extractEntry src/TesseractBinding.cc
+1720 silly gunzTarPerm modified mode [ 'src/TesseractBinding.cc', 420, 438 ]
+1721 silly gunzTarPerm extractEntry src/TesseractBinding.h
+1722 silly gunzTarPerm modified mode [ 'src/TesseractBinding.h', 420, 438 ]
+1723 silly gunzTarPerm extractEntry tessdata/eng.traineddata
+1724 silly gunzTarPerm modified mode [ 'tessdata/eng.traineddata', 420, 438 ]
+1725 silly gunzTarPerm extractEntry test/tesseractjs.test.js
+1726 silly gunzTarPerm modified mode [ 'test/tesseractjs.test.js', 420, 438 ]
+1727 silly gunzTarPerm extractEntry test/images/test-image.jpg
+1728 silly gunzTarPerm modified mode [ 'test/images/test-image.jpg', 420, 438 ]
+1729 silly gunzTarPerm extractEntry test/images/test-image.png
+1730 silly gunzTarPerm modified mode [ 'test/images/test-image.png', 420, 438 ]
+1731 silly gentlyRm C:\Users\sunkudo\node_modules\.staging\tesseract-js-62f49685\node_modules is being purged
+1732 verbose gentlyRm don't care about contents; nuking C:\Users\sunkudo\node_modules\.staging\tesseract-js-62f49685\node_modules
+1733 silly doParallel preinstall 2
+1734 silly preinstall chai@1.3.0 C:\Users\sunkudo\node_modules\.staging\chai-19f36152
+1735 info lifecycle chai@1.3.0~preinstall: chai@1.3.0
+1736 silly preinstall tesseract-js@0.0.1 C:\Users\sunkudo\node_modules\.staging\tesseract-js-62f49685
+1737 info lifecycle tesseract-js@0.0.1~preinstall: tesseract-js@0.0.1
+1738 silly lifecycle chai@1.3.0~preinstall: no script for preinstall, continuing
+1739 silly lifecycle tesseract-js@0.0.1~preinstall: no script for preinstall, continuing
+1740 silly doReverseSerial remove 0
+1741 silly doSerial move 0
+1742 silly doSerial finalize 2
+1743 silly finalize C:\Users\sunkudo\node_modules\chai
+1744 silly finalize C:\Users\sunkudo\node_modules\tesseract-js
+1745 silly doSerial build 2
+1746 silly build chai@1.3.0
+1747 info linkStuff chai@1.3.0
+1748 silly linkStuff chai@1.3.0 has C:\Users\sunkudo\node_modules as its parent node_modules
+1749 verbose linkBins chai@1.3.0
+1750 verbose linkMans chai@1.3.0
+1751 silly build tesseract-js@0.0.1
+1752 info linkStuff tesseract-js@0.0.1
+1753 silly linkStuff tesseract-js@0.0.1 has C:\Users\sunkudo\node_modules as its parent node_modules
+1754 verbose linkBins tesseract-js@0.0.1
+1755 verbose linkMans tesseract-js@0.0.1
+1756 silly doSerial global-link 0
+1757 silly doParallel update-linked 0
+1758 silly doSerial install 2
+1759 silly install chai@1.3.0 C:\Users\sunkudo\node_modules\.staging\chai-19f36152
+1760 info lifecycle chai@1.3.0~install: chai@1.3.0
+1761 silly lifecycle chai@1.3.0~install: no script for install, continuing
+1762 silly install tesseract-js@0.0.1 C:\Users\sunkudo\node_modules\.staging\tesseract-js-62f49685
+1763 info lifecycle tesseract-js@0.0.1~install: tesseract-js@0.0.1
+1764 verbose lifecycle tesseract-js@0.0.1~install: unsafe-perm in lifecycle true
+1765 verbose lifecycle tesseract-js@0.0.1~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\sunkudo\node_modules\tesseract-js\node_modules\.bin;C:\Users\sunkudo\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\ActiveState Komodo Edit 10\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\Library\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Java\jre6\bin;C:\Users\sunkudo\AppData\Local\Microsoft\WindowsApps;
+1766 verbose lifecycle tesseract-js@0.0.1~install: CWD: C:\Users\sunkudo\node_modules\tesseract-js
+1767 silly lifecycle tesseract-js@0.0.1~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+1768 silly lifecycle tesseract-js@0.0.1~install: Returned: code: 1  signal: null
+1769 info lifecycle tesseract-js@0.0.1~install: Failed to exec install script
+1770 verbose unlock done using C:\Users\sunkudo\AppData\Roaming\npm-cache\_locks\staging-e1b423a5f6db818c.lock for C:\Users\sunkudo\node_modules\.staging
+1771 silly rollbackFailedOptional Starting
+1772 silly rollbackFailedOptional Finishing
+1773 silly runTopLevelLifecycles Finishing
+1774 silly install printInstalled
+1775 warn enoent ENOENT: no such file or directory, open 'C:\Users\sunkudo\package.json'
+1776 verbose enoent ENOENT: no such file or directory, open 'C:\Users\sunkudo\package.json'
+1776 verbose enoent This is most likely not a problem with npm itself
+1776 verbose enoent and is related to npm not being able to find a file.
+1777 warn sunkudo No description
+1778 verbose If you need help, you may report this error at:
+1778 verbose     <https://github.com/npm/npm/issues>
+1779 warn sunkudo No repository field.
+1780 verbose If you need help, you may report this error at:
+1780 verbose     <https://github.com/npm/npm/issues>
+1781 warn sunkudo No README data
+1782 verbose If you need help, you may report this error at:
+1782 verbose     <https://github.com/npm/npm/issues>
+1783 warn sunkudo No license field.
+1784 verbose If you need help, you may report this error at:
+1784 verbose     <https://github.com/npm/npm/issues>
+1785 verbose stack Error: tesseract-js@0.0.1 install: `node-gyp rebuild`
+1785 verbose stack Exit status 1
+1785 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+1785 verbose stack     at emitTwo (events.js:106:13)
+1785 verbose stack     at EventEmitter.emit (events.js:191:7)
+1785 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+1785 verbose stack     at emitTwo (events.js:106:13)
+1785 verbose stack     at ChildProcess.emit (events.js:191:7)
+1785 verbose stack     at maybeClose (internal/child_process.js:886:16)
+1785 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+1786 verbose pkgid tesseract-js@0.0.1
+1787 verbose cwd C:\Users\sunkudo\Documents
+1788 error Windows_NT 10.0.15063
+1789 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "tesseract-js"
+1790 error node v6.10.3
+1791 error npm  v3.10.10
+1792 error code ELIFECYCLE
+1793 error tesseract-js@0.0.1 install: `node-gyp rebuild`
+1793 error Exit status 1
+1794 error Failed at the tesseract-js@0.0.1 install script 'node-gyp rebuild'.
+1794 error Make sure you have the latest version of node.js and npm installed.
+1794 error If you do, this is most likely a problem with the tesseract-js package,
+1794 error not with npm itself.
+1794 error Tell the author that this fails on your system:
+1794 error     node-gyp rebuild
+1794 error You can get information on how to open an issue for this project with:
+1794 error     npm bugs tesseract-js
+1794 error Or if that isn't available, you can get their info via:
+1794 error     npm owner ls tesseract-js
+1794 error There is likely additional logging output above.
+1795 verbose exit [ 1, true ]
